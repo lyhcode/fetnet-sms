@@ -1,0 +1,57 @@
+apply plugin: 'java'
+apply plugin: 'war'
+apply plugin: 'jetty'
+apply plugin: 'groovy'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	groovy 'org.codehaus.groovy:groovy-all:1.8.3'
+	compile ('org.codehaus.groovy.modules.http-builder:http-builder:0.5.1')  {
+		exclude group: 'org.codehaus.groovy', modules: 'groovy'
+	}
+	runtime 'log4j:log4j:1.2.16'
+	testCompile 'org.spockframework:spock-core:0.5-groovy-1.8'
+	testCompile 'hsqldb:hsqldb:1.8.0.10'
+	//testCompile 'junit:junit:4.8.2'
+
+	// mock-web
+	compile 'javax.servlet:servlet-api:2.5'
+	compile 'javax.servlet:jsp-api:2.0'
+	runtime 'org.tuckey:urlrewritefilter:3.2.0'
+}
+
+def defaultEncoding = 'UTF-8'
+
+[compileJava, compileTestJava]*.options*.encoding = defaultEncoding
+[compileGroovy, compileTestGroovy]*.options*.encoding = defaultEncoding
+[compileGroovy, compileTestGroovy]*.groovyOptions*.encoding = defaultEncoding
+
+//[jettyRun, jettyRunWar, jettyStop]*.stopPort = 8081
+//[jettyRun, jettyRunWar, jettyStop]*.stopKey = 'stopKey'
+[jettyRun, jettyRunWar, jettyStop]*.httpPort = 6600
+[jettyRun, jettyRunWar, jettyStop]*.contextPath = '/'
+
+task (runSimple, dependsOn: 'classes', type: JavaExec) {
+	classpath = sourceSets.main.runtimeClasspath
+	//main = 'com.lyhdev.mpush.SimpleSMS'
+	main = 'com.lyhdev.mpush.SimpleSocketServer'
+}
+
+task jettyDaemon {
+	description = 'Set Jetty daemon mode.'
+	doLast {
+		[jettyRun, jettyRunWar]*.daemon = true
+	}
+}
+
+task integrationTest {
+	description = 'Runs the unit tests with web server.'
+	dependsOn << jettyDaemon
+	dependsOn << jettyRunWar
+	dependsOn << test
+}
+
+defaultTasks 'runSimple'
