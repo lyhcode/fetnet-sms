@@ -290,7 +290,7 @@ class SimpleAdmin {
 			}
 		}
 		
-		//swingbuilder.lookAndFeel('nimbus')
+		swingbuilder.lookAndFeel('steel')
 	}
 	
 	static void main(String[] args) {
