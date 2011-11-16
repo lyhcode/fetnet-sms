@@ -58,7 +58,7 @@ class SimpleAdmin {
 						tableLayout () {
 							tr {
 								td {
-									label (text: '<html><B><BIG>簡訊服務設定</BIG></B></html>')
+									label (text: '<html><font color=blue>簡訊服務設定</font></html>')
 								}
 							}
 							tr {
@@ -71,7 +71,7 @@ class SimpleAdmin {
 							}
 							tr {
 								td {
-									label (text: '系統代碼')
+									label (font: font1, text: '系統代碼')
 								}
 								td {
 									field_sysid = textField(columns: 25, text: 'X0KYAODA')
@@ -79,7 +79,7 @@ class SimpleAdmin {
 							}
 							tr {
 								td {
-									label (text: '來源號碼')
+									label (font: font1, text: '來源號碼')
 								}
 								td {
 									field_srcaddress = textField(columns: 25, text: '01916800020100500000')
@@ -87,12 +87,12 @@ class SimpleAdmin {
 							}
 							tr {
 								td {
-									label (text: '<html><B><BIG>資料庫設定</BIG></B></html>')
+									label (text: '<html><font color=blue>資料庫設定</font></html>')
 								}
 							}
 							tr {
 								td {
-									label (text: '連線字串')
+									label (font: font1, text: '連線字串')
 								}
 								td {
 									field_dsn = textField(columns: 25, text: 'jdbc:jtds:sqlserver://HAADBP01/SHCAR')
@@ -100,7 +100,7 @@ class SimpleAdmin {
 							}          
 							tr {
 								td {
-									label (text: '帳號')
+									label (font: font1, text: '帳號')
 								}
 								td {
 									field_dbuser = textField(columns: 10, text: 'SHUSER')
@@ -108,7 +108,7 @@ class SimpleAdmin {
 							}	
 							tr {
 								td {
-									label (text: '密碼')
+									label (font: font1, text: '密碼')
 								}
 								td {
 									field_dbpwd = textField(columns: 10, text: 'SH123a')
@@ -116,7 +116,7 @@ class SimpleAdmin {
 							}
 							tr {
 								td {
-									label (text: '驅動程式')
+									label (font: font1, text: '驅動程式')
 								}
 								td {
 									field_dbdrv = textField(columns: 20, text: 'net.sourceforge.jtds.jdbc.Driver')
@@ -147,12 +147,12 @@ class SimpleAdmin {
 							}
 							tr {
 								td {
-									label (text: '<html><B><BIG>訊息設定</BIG></B></html>')
+									label (text: '<html><font color=blue>訊息設定</font></html>')
 								}
 							}
 							tr {
 								td {
-									label (text: '訊息內容')
+									label (font: font1, text: '訊息內容')
 								}
 								td {
 									field_message = textArea (columns: 25, rows: 10, text: '親愛的用戶您好')
@@ -160,12 +160,12 @@ class SimpleAdmin {
 							}
 							tr {
 								td {
-									label (text: '<html><B><BIG>手動控制</BIG></B></html>')
+									label (text: '<html><font color=blue>手動控制</font></html>')
 								}
 							}
 							tr {
 								td {
-									label (text: 'AL_SNO')
+									label (font: font1, text: 'AL_SNO')
 								}
 								td {
 									field_AL_SNO = textField(columns: 10, text: '')
@@ -196,7 +196,7 @@ class SimpleAdmin {
 							}
 							tr {
 								td {
-									label (text: '行動電話號碼')
+									label (font: font1, text: '行動電話號碼')
 								}
 								td {
 									field_phone = textField(columns: 10, text: '8869')
