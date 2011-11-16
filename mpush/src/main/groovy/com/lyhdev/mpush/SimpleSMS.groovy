@@ -73,7 +73,7 @@ class SimpleSMS {
 			sms.DestAddress.each {
 				DestAddress (it)
 			}
-			SmsBody (sms.SmsBody.bytes.encodeBase64().toString())
+			SmsBody (sms.SmsBody.getBytes("BIG5").encodeBase64().toString())
 			DrFlag (drFlag)
 		}
 		

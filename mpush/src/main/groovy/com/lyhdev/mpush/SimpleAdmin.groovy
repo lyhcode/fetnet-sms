@@ -171,7 +171,7 @@ class SimpleAdmin {
 														def client = new SimpleSocketClient()
 														def result = client.send(field_AL_SNO.text)
 
-														label_submit.text = "${result.ResultCode}"
+														label_submit.text = "${result}"
 																												
 														button_submit.enabled = true
 													}
@@ -206,7 +206,7 @@ class SimpleAdmin {
 														)
 														def result = sms.submit([field_phone.text], field_message.text)
 
-														label_send.text = "${result}"
+														label_send.text = "${result.ResultCode}"
 																												
 														button_send.enabled = true
 													}
