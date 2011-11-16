@@ -43,12 +43,15 @@ class SimpleDatabaseSpec extends Specification {
 				S_R_F varchar(255)
 			)
 		'''
-		sql.execute INSERT_SQL, ['2011/11/11', '123456', '0001', '123456', '1', '886000000000', 'N', '', '']
+		sql.execute INSERT_SQL, [new Date().format('yyyyMMdd'), '123456', '2001', '123456', '1', '886000000000', 'Y', null, null]
 
 		then:
 
-		db.getAlertList('0001').size() > 0
-		db.saveResult('0001', 'Y', '00000')
+		db.getAlertList('2001').size() > 0
+		db.getAlertList('2001')[0].S_MOBI == '886000000000'
+		db.saveResult('2001', 'Y')
+		
+		sql.firstRow("select S_R_F as val1 from PRE_AL_MSG where AL_SNO='2001'").val1 == 'Y'
 
 		cleanup:
 

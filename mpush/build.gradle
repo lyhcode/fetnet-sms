@@ -17,6 +17,10 @@ configurations {
 
 repositories {
 	mavenCentral()
+	//mavenCentral name:'codehaus',	artifactUrls: ['http://repository.codehaus.org/']
+	//mavenCentral name:'ibiblio',	artifactUrls: ['http://mirrors.ibiblio.org/pub/mirrors/maven2/']
+	//mavenCentral name:'apache',		artifactUrls: ['http://people.apache.org/repo/m2-ibiblio-rsync-repository/']
+	//mavenCentral name:'maven',		artifactUrls: ['http://repo2.maven.org/maven2/']
 }
 
 dependencies {

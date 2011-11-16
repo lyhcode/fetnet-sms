@@ -36,7 +36,7 @@ class SimpleSockerServerSpec extends Specification {
 
 		def result = []
 		
-		(1..1000).each {
+		(1..100).each {
 			def msg = client.send('message')
 			if (msg == 'message') {
 				result << msg
@@ -46,7 +46,7 @@ class SimpleSockerServerSpec extends Specification {
 
 		then:
 
-		result.size() == 1000
+		result.size() == 100
 
 		cleanup:
 

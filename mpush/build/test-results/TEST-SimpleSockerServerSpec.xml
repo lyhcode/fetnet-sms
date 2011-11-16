@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" hostname="workstation" name="SimpleSockerServerSpec" tests="2" time="1.647" timestamp="2011-11-16T08:15:19">
+  <properties />
+  <testcase classname="SimpleSockerServerSpec" name="server listen" time="0.209" />
+  <testcase classname="SimpleSockerServerSpec" name="easy load test to server" time="1.188" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
