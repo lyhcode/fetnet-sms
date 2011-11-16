@@ -32,11 +32,10 @@ class SimpleSMS {
 	 
 		def result = [:]
 
-		http.request( POST, XML ) {
+		http.request( GET, XML ) {
 			uri.path = '/mpushapi/smssubmit'
-			//uri.query = [a: 1]
-			
-			body = [xml: dataToXml(sms)]
+			uri.query = [xml: dataToXml(sms)]
+			//body = [xml: dataToXml(sms)]
 
 			requestContentType = ContentType.URLENC
 
