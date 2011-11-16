@@ -137,7 +137,8 @@ class SimpleAdmin {
 													catch (e) {
 														log.error e.message
 														
-														label_dbtest.text = "<html><FONT color=red>${e.message}</FONT></html>"
+														//label_dbtest.text = "<html><FONT color=red>${e.message}</FONT></html>"
+														label_dbtest.text = "<html><FONT color=red>失敗</FONT></html>"
 													}
 												})
 											}
@@ -170,7 +171,7 @@ class SimpleAdmin {
 														def client = new SimpleSocketClient()
 														def result = client.send(field_AL_SNO.text)
 
-														label_submit.text = "${result}"
+														label_submit.text = "${result.ResultCode}"
 																												
 														button_submit.enabled = true
 													}

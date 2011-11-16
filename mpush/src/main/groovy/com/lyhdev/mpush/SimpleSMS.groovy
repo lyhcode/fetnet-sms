@@ -61,7 +61,7 @@ class SimpleSMS {
 	def dataToXml(sms) {
 		def writer = new StringWriter()
 		writer.print '<?xml version="1.0" encoding="UTF-8"?>'
-		//writer.print "\n"
+		writer.print "\n"
 
 		def xml = new MarkupBuilder(writer)
 
@@ -79,11 +79,12 @@ class SimpleSMS {
 		
 		//writer.print "\n"
 		
-		def result = writer.toString().replace("\n", '')
+		//def result = writer.toString().replace("\n", '')
+		def result = writer.toString()
 		
 		log.info "訊息已轉換為 XML 格式: ${result}"
 
-		//result
-		'<?xml version="1.0" encoding="UTF-8" ?><SmsSubmitReq><SysId>X0KYAODA</SysId><SrcAddress>01916800020100500000</SrcAddress><DestAddress>886937397377</DestAddress><SmsBody>SGkuIFRlc3QgTWVzc2FnZS4=</SmsBody></SmsSubmitReq>'
+		result
+		//'<?xml version="1.0" encoding="UTF-8" ?><SmsSubmitReq><SysId>X0KYAODA</SysId><SrcAddress>01916800020100500000</SrcAddress><DestAddress>886937397377</DestAddress><SmsBody>SGkuIFRlc3QgTWVzc2FnZS4=</SmsBody></SmsSubmitReq>'
 	}
 }
