@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite errors="0" failures="0" hostname="workstation" name="SimpleDatabaseSpec" tests="1" time="0.15" timestamp="2011-11-16T08:15:21">
-  <properties />
-  <testcase classname="SimpleDatabaseSpec" name="database read and write" time="0.143" />
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

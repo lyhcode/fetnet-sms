@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite errors="0" failures="0" hostname="workstation" name="SimpleSpec" tests="1" time="0.725" timestamp="2011-11-16T08:15:20">
-  <properties />
-  <testcase classname="SimpleSpec" name="Make Any Request" time="0.716" />
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
