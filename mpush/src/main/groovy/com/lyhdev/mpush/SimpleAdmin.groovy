@@ -40,7 +40,7 @@ class SimpleAdmin {
 		//def sql = null
 		
 		def font1 = new Font('Dialog', Font.PLAIN, 12)
-		def font1 = new Font('Dialog', Font.PLAIN, 14)
+		def font2 = new Font('Dialog', Font.PLAIN, 14)
 		
 		def swingbuilder = new SwingBuilder().edt {
 			frame_main = frame (
@@ -125,7 +125,7 @@ class SimpleAdmin {
 							}
 							tr {
 								td {
-									button (text: '測試連線', actionPerformed: {
+									button (font: font2, text: '測試連線', actionPerformed: {
 										try {
 											def sql = Sql.newInstance(field_dsn.text, field_dbuser.text, field_dbpwd.text, field_dbdrv.text)
 											log.debug sql
@@ -174,7 +174,7 @@ class SimpleAdmin {
 							}
 							tr {
 								td {
-									button_submit = button (text: '送出 UDP 訊息', actionPerformed: {
+									button_submit = button (font: font2, text: '送出 UDP 訊息', actionPerformed: {
 										log.info "手動送出 UDP 訊息 '${field_AL_SNO.text}'"
 									
 										button_submit.enabled = false
@@ -205,7 +205,7 @@ class SimpleAdmin {
 							}
 							tr {
 								td {
-									button_send = button (text: '送出 SMS 訊息', actionPerformed: {
+									button_send = button (font: font2, text: '送出 SMS 訊息', actionPerformed: {
 										log.info "手動送出 SMS 訊息 '${field_phone.text}'"
 									
 										button_send.enabled = false
