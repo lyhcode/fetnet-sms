@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE urlrewrite PUBLIC "-//tuckey.org//DTD UrlRewrite 4.0//EN"
+        "http://www.tuckey.org/res/dtds/urlrewrite4.0.dtd">
+
+<!--
+
+    configuration file for urlRewriteFilter
+
+-->
+<!-- todo: move into a unit test -->
+<urlrewrite>
+   <rule>
+        <from>/mpushapi/smssubmit</from>
+        <to>/smssubmit.groovy</to>
+    </rule>
+</urlrewrite>

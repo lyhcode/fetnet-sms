@@ -48,7 +48,7 @@ class SimpleDatabaseSpec extends Specification {
 		then:
 
 		db.getAlertList('0001').size() > 0
-		db.saveResult(db.getAlertList('0001')[0], 'Y', '00000')
+		db.saveResult('0001', 'Y', '00000')
 
 		cleanup:
 

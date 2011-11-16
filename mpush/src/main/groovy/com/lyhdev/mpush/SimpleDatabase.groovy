@@ -18,31 +18,28 @@ class SimpleDatabase {
 	def UPDATE_SQL = '''
 		update PRE_AL_MSG
 		set SEND_F=?, S_DATE=?, S_R_F=?
-		where BSDNO=? and S_NO=? and BUYERID=?
+		where AL_SNO = ?
 	'''
 
 	/**
 	 * 透過 AL_SNO 取得需要提醒的編號
 	 */
 	def getAlertList(AL_SNO) {
-		
 		sql.rows(SELECT_SQL, [AL_SNO])
 	}
 
 	/**
 	 * 將簡訊傳送結果寫回資料表
 	 */
-	def saveResult(alert, SEND_F, S_R_F) {
+	def saveResult(AL_SNO, SEND_F, S_R_F) {
 		
 		def S_DATE = new Date()
 
-		sql.execute(UPDATE_SQL, [
+		sql.executeUpdate(UPDATE_SQL, [
 			SEND_F,
 			S_DATE,
 			S_R_F,
-			alert.BSDNO,
-			alert.S_NO,
-			alert.BUYERID
-		])
+			AL_SNO
+		]) > 0
 	}
 }

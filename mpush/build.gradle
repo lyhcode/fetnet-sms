@@ -2,6 +2,18 @@ apply plugin: 'java'
 apply plugin: 'war'
 apply plugin: 'jetty'
 apply plugin: 'groovy'
+apply plugin: 'maven'
+
+group = 'lyhdev'
+version = '0.0.1'
+description = ''
+
+sourceCompatibility = 1.6
+targetCompatibility = 1.6
+
+configurations {
+	deployerJars
+}
 
 repositories {
 	mavenCentral()
@@ -21,6 +33,16 @@ dependencies {
 	compile 'javax.servlet:servlet-api:2.5'
 	compile 'javax.servlet:jsp-api:2.0'
 	runtime 'org.tuckey:urlrewritefilter:3.2.0'
+
+	// maven deploy
+	deployerJars 'org.apache.maven.wagon:wagon-webdav-jackrabbit:1.0-beta-7'
+}
+
+uploadArchives {
+	repositories.mavenDeployer {
+		configuration = configurations.deployerJars
+		repository(url: 'http://tomcat.lyhdev.com/nexus/content/repositories/mpush-api/')
+	}
 }
 
 def defaultEncoding = 'UTF-8'
