@@ -61,8 +61,8 @@ class SimpleSMS {
 
 	def dataToXml(sms) {
 		def writer = new StringWriter()
-		writer.print '<?xml version="1.0" encoding="UTF-8" ?>'
-		writer.print "\n"
+		writer.print '<?xml version="1.0" encoding="UTF-8"?>'
+		//writer.print "\n"
 
 		def xml = new MarkupBuilder(writer)
 
@@ -78,10 +78,12 @@ class SimpleSMS {
 			DrFlag (drFlag)
 		}
 		
-		writer.print "\n"
+		//writer.print "\n"
 		
-		log.info "訊息已轉換為 XML 格式: ${writer.toString()}"
+		def result = writer.toString().replace("\n", '')
+		
+		log.info "訊息已轉換為 XML 格式: ${result}"
 
-		writer.toString()
+		result
 	}
 }
