@@ -39,6 +39,8 @@ class SimpleAdmin {
 		def server = null
 		//def sql = null
 		
+		def font1 = new Font('Dialog', Font.PLAIN, 12)
+		
 		def swingbuilder = new SwingBuilder().edt {
 			frame_main = frame (
 				title: '簡訊服務管理',
@@ -61,7 +63,7 @@ class SimpleAdmin {
 							}
 							tr {
 								td {
-									label (text: '伺服器位址')
+									label (font: font1, text: '伺服器位址')
 								}
 								td {
 									field_smsurl = textField(columns: 25, text: 'http://61.20.32.60:6600')
