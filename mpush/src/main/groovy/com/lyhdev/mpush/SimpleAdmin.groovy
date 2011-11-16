@@ -199,6 +199,7 @@ class SimpleAdmin {
 													
 													Thread.start {
 														def sms = new SimpleSMS(
+															url: field_smsurl.text,
 															sysId: field_sysid.text,
 															srcAddress: field_srcaddress.text,
 														)
