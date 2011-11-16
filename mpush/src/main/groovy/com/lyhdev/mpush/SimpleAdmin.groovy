@@ -45,6 +45,7 @@ class SimpleAdmin {
 		def swingbuilder = new SwingBuilder().edt {
 			frame_main = frame (
 				title: '簡訊服務管理',
+				locationRelativeTo: null,
 				size: [640, 480],
 				show: true,
 				pack: true,
@@ -57,7 +58,11 @@ class SimpleAdmin {
 				}) {
 				
 				lookAndFeel('system')
-				
+				menuBar() {
+					menu(text: "File", mnemonic: 'F') {
+						menuItem(text: "Exit", mnemonic: 'X', actionPerformed: {dispose() })
+					}
+				}
 				tabbedPane (constraints: BL.CENTER, tabLayoutPolicy: JTabbedPane.SCROLL_TAB_LAYOUT) {
 					panel (name: '簡訊服務設定') {
 						tableLayout () {
@@ -120,7 +125,7 @@ class SimpleAdmin {
 									label (font: font1, text: '密碼')
 								}
 								td {
-									field_dbpwd = textField(columns: 10, text: 'SH123a')
+									field_dbpwd = passwordField(columns: 10, text: 'SH123a')
 								}
 							}
 							tr {
@@ -165,10 +170,7 @@ class SimpleAdmin {
 							}
 							tr {
 								td {
-									label (font: font1, text: '訊息內容')
-								}
-								td {
-									field_message = textArea (columns: 25, rows: 10, text: '親愛的用戶您好')
+									field_message = textArea (columns: 30, rows: 5, text: '親愛的用戶您好')
 								}
 							}
 						}
