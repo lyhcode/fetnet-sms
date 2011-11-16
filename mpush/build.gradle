@@ -30,7 +30,8 @@ dependencies {
 	}
 	runtime 'log4j:log4j:1.2.16'
 	testCompile 'org.spockframework:spock-core:0.5-groovy-1.8'
-	testCompile 'hsqldb:hsqldb:1.8.0.10'
+	runtime 'hsqldb:hsqldb:1.8.0.10'
+	runtime 'net.sourceforge.jtds:jtds:1.2.4'
 	//testCompile 'junit:junit:4.8.2'
 
 	// mock-web
@@ -63,7 +64,7 @@ def defaultEncoding = 'UTF-8'
 task (runSimple, dependsOn: 'classes', type: JavaExec) {
 	classpath = sourceSets.main.runtimeClasspath
 	//main = 'com.lyhdev.mpush.SimpleSMS'
-	main = 'com.lyhdev.mpush.SimpleSocketServer'
+	main = 'com.lyhdev.mpush.SimpleAdmin'
 }
 
 task jettyDaemon {

@@ -27,6 +27,7 @@ class SimpleDatabase {
 		and (S_DATE is null or S_DATE = '')
 	'''
 
+	/*
 	def UPDATE_SQL = '''
 		update PRE_AL_MSG
 		set S_DATE=?, S_R_F=?
@@ -35,6 +36,16 @@ class SimpleDatabase {
 		and SEND_F = 'Y'
 		and (S_MOBI is not null and S_MOBI <> '')
 		and (S_DATE is null or S_DATE = '')
+	'''
+	*/
+
+	// 個別更新記錄
+	def UPDATE_SQL = '''
+		update PRE_AL_MSG
+		set S_DATE=?, S_R_F=?
+		where BSDNO = ?
+		and S_NO = ?
+		and BUYERID = ?
 	'''
 
 	/**
@@ -50,15 +61,24 @@ class SimpleDatabase {
 	/**
 	 * 將簡訊傳送結果寫回資料表
 	 */
-	def saveResult(AL_SNO, S_R_F) {
+	def saveResult(S_NO, BUYERID, S_R_F) {
 		
 		def S_DATE = new Date().format('yyyyMMdd') //日期格式：19991231
-
+		/*
 		sql.executeUpdate(UPDATE_SQL, [
 			S_DATE,
 			S_R_F,
 			AL_SNO,
 			new Date().format('yyyyMMdd')
+		]) > 0
+		*/
+		
+		sql.executeUpdate(UPDATE_SQL, [
+			S_DATE,
+			S_R_F,
+			new Date().format('yyyyMMdd'),
+			S_NO,
+			BUYERID
 		]) > 0
 	}
 }

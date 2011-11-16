@@ -6,16 +6,17 @@ class SimpleSMSSpec extends Specification {
 	def "mpushapi smssubmit"() {
 		given: 'create SimpleSMS'
 
-		def sms = new SimpleSMS()
+		def sms = new SimpleSMS(
+			sysId: 'X0KYAODA',
+			srcAddress: '01916800020100500000',
+			drFlag: true
+		)
 		
 		when: 'call submit'
 
 		def result = sms.submit(
-			'X0KYAODA',
-			'01916800020100500000',
 			['886000000000'],
-			'Hi. Test Message.',
-			true
+			'Hi. Test Message.'
 		)
 
 		then: 'check result'

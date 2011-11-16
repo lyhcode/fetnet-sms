@@ -11,20 +11,25 @@ import static groovyx.net.http.Method.*
  */
 @Log4j
 class SimpleSMS {
-	// http://61.20.32.60:6600
-	def http = new HTTPBuilder( 'http://localhost:6600' )
+	def url = 'http://localhost:6600'
 
-	def submit(sysId, srcAddress, destAddress, smsBody, drFlag) {
+	def sysId = 'X0KYAODA'
+	def srcAddress = '01916800020100500000'
+	def drFlag = true
+	
+	def http
+	
+	def submit(destAddress, smsBody) {
 		submit([
-			SysId: sysId,
-			SrcAddress: srcAddress,
 			DestAddress: destAddress,
-			SmsBody: smsBody,
-			DrFlag: drFlag
+			SmsBody: smsBody
 		])
 	}
 
 	def submit(sms) {
+		// http://61.20.32.60:6600
+	 	http = new HTTPBuilder( url )
+	 
 		def result = [:]
 
 		http.request( POST, XML ) {
@@ -63,28 +68,17 @@ class SimpleSMS {
 		xml.doubleQuotes = true
 
 		xml.SmsSubmitReq {
-			SysId (sms.SysId)
-			SrcAddress (sms.SrcAddress)
+			SysId (sysId)
+			SrcAddress (srcAddress)
 			sms.DestAddress.each {
 				DestAddress (it)
 			}
 			SmsBody (sms.SmsBody.bytes.encodeBase64().toString())
-			DrFlag (sms.DrFlag)
+			DrFlag (drFlag)
 		}
 		
 		log.info "訊息已轉換為 XML 格式: ${writer.toString()}"
 
 		writer.toString()
-	}
-	
-	public static void main(String[] args) {
-		def sms = new SimpleSMS()
-		sms.submit(
-			'X0KYAODA',
-			'01916800020100500000',
-			['886000000000'],
-			'Hi. Test Message.',
-			true
-		)
 	}
 }

@@ -11,12 +11,14 @@ class SimpleSocketServer {
 	// 暫定 UDP PORT=3003
 	int port = 3003
 	int bufferSize = 4096
-	int soTimeout = 3000
+	int soTimeout = 30000
 
 	int rcvCount = 0
 
 	def th1
 	def socket = null
+	
+	def action = { msg -> log.debug "No action defined. data='${msg}'" }
 
 	def start() {
 		if (socket != null && !socket.isClosed()) {
@@ -49,6 +51,8 @@ class SimpleSocketServer {
 				def msg = new String(incoming.data, 0, incoming.length)
 
 				log.debug "server receive(${rcvCount++}): ${msg}"
+				
+				action(msg)
 
 				def outgoing = new DatagramPacket(
 					msg.bytes,
@@ -64,10 +68,5 @@ class SimpleSocketServer {
 				log.debug "server receive exception: ${e.message}"
 			}
 		}
-	}
-
-	public static void main(String[] args) {
-		def server = new SimpleSocketServer();
-		server.listen();
 	}
 }

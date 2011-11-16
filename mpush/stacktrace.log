@@ -25268,3 +25268,1737 @@
 16:15:21,751 DEBUG SingleClientConnManager:250 - Releasing connection org.apache.http.impl.conn.SingleClientConnManager$ConnAdapter@10320399
 16:15:21,752 DEBUG HTTPBuilder:547 - Parsed data to instance of: class groovy.util.slurpersupport.NodeChild
 16:15:21,757  INFO SimpleSMS:? - 訊息傳送結果: [MessageId:A13D98F, ResultCode:00000, ResultText:Message accepted for processing.]
+16:34:38,563 DEBUG SimpleSocketServer:? - server receive(0): message
+16:34:38,571 DEBUG SimpleSocketClient:? - client receive: message
+16:34:38,589 DEBUG SimpleSocketServer:? - server receive exception: Socket closed
+16:34:38,613 DEBUG SimpleSocketServer:? - server receive(0): message
+16:34:38,614 DEBUG SimpleSocketClient:? - client receive: message
+16:34:38,629 DEBUG SimpleSocketServer:? - server receive(1): message
+16:34:38,631 DEBUG SimpleSocketClient:? - client receive: message
+16:34:38,643 DEBUG SimpleSocketServer:? - server receive(2): message
+16:34:38,644 DEBUG SimpleSocketClient:? - client receive: message
+16:34:38,655 DEBUG SimpleSocketServer:? - server receive(3): message
+16:34:38,656 DEBUG SimpleSocketClient:? - client receive: message
+16:34:38,666 DEBUG SimpleSocketServer:? - server receive(4): message
+16:34:38,667 DEBUG SimpleSocketClient:? - client receive: message
+16:34:38,678 DEBUG SimpleSocketServer:? - server receive(5): message
+16:34:38,679 DEBUG SimpleSocketClient:? - client receive: message
+16:34:38,690 DEBUG SimpleSocketServer:? - server receive(6): message
+16:34:38,692 DEBUG SimpleSocketClient:? - client receive: message
+16:34:38,704 DEBUG SimpleSocketServer:? - server receive(7): message
+16:34:38,704 DEBUG SimpleSocketClient:? - client receive: message
+16:34:38,715 DEBUG SimpleSocketServer:? - server receive(8): message
+16:34:38,716 DEBUG SimpleSocketClient:? - client receive: message
+16:34:38,727 DEBUG SimpleSocketServer:? - server receive(9): message
+16:34:38,727 DEBUG SimpleSocketClient:? - client receive: message
+16:34:38,738 DEBUG SimpleSocketServer:? - server receive(10): message
+16:34:38,739 DEBUG SimpleSocketClient:? - client receive: message
+16:34:38,750 DEBUG SimpleSocketServer:? - server receive(11): message
+16:34:38,750 DEBUG SimpleSocketClient:? - client receive: message
+16:34:38,761 DEBUG SimpleSocketServer:? - server receive(12): message
+16:34:38,762 DEBUG SimpleSocketClient:? - client receive: message
+16:34:38,772 DEBUG SimpleSocketServer:? - server receive(13): message
+16:34:38,773 DEBUG SimpleSocketClient:? - client receive: message
+16:34:38,784 DEBUG SimpleSocketServer:? - server receive(14): message
+16:34:38,785 DEBUG SimpleSocketClient:? - client receive: message
+16:34:38,796 DEBUG SimpleSocketServer:? - server receive(15): message
+16:34:38,797 DEBUG SimpleSocketClient:? - client receive: message
+16:34:38,808 DEBUG SimpleSocketServer:? - server receive(16): message
+16:34:38,808 DEBUG SimpleSocketClient:? - client receive: message
+16:34:38,819 DEBUG SimpleSocketServer:? - server receive(17): message
+16:34:38,819 DEBUG SimpleSocketClient:? - client receive: message
+16:34:38,830 DEBUG SimpleSocketServer:? - server receive(18): message
+16:34:38,832 DEBUG SimpleSocketClient:? - client receive: message
+16:34:38,843 DEBUG SimpleSocketServer:? - server receive(19): message
+16:34:38,843 DEBUG SimpleSocketClient:? - client receive: message
+16:34:38,854 DEBUG SimpleSocketServer:? - server receive(20): message
+16:34:38,855 DEBUG SimpleSocketClient:? - client receive: message
+16:34:38,866 DEBUG SimpleSocketServer:? - server receive(21): message
+16:34:38,867 DEBUG SimpleSocketClient:? - client receive: message
+16:34:38,878 DEBUG SimpleSocketServer:? - server receive(22): message
+16:34:38,879 DEBUG SimpleSocketClient:? - client receive: message
+16:34:38,889 DEBUG SimpleSocketServer:? - server receive(23): message
+16:34:38,890 DEBUG SimpleSocketClient:? - client receive: message
+16:34:38,900 DEBUG SimpleSocketServer:? - server receive(24): message
+16:34:38,901 DEBUG SimpleSocketClient:? - client receive: message
+16:34:38,912 DEBUG SimpleSocketServer:? - server receive(25): message
+16:34:38,913 DEBUG SimpleSocketClient:? - client receive: message
+16:34:38,923 DEBUG SimpleSocketServer:? - server receive(26): message
+16:34:38,924 DEBUG SimpleSocketClient:? - client receive: message
+16:34:38,934 DEBUG SimpleSocketServer:? - server receive(27): message
+16:34:38,935 DEBUG SimpleSocketClient:? - client receive: message
+16:34:38,946 DEBUG SimpleSocketServer:? - server receive(28): message
+16:34:38,946 DEBUG SimpleSocketClient:? - client receive: message
+16:34:38,957 DEBUG SimpleSocketServer:? - server receive(29): message
+16:34:38,958 DEBUG SimpleSocketClient:? - client receive: message
+16:34:38,968 DEBUG SimpleSocketServer:? - server receive(30): message
+16:34:38,969 DEBUG SimpleSocketClient:? - client receive: message
+16:34:38,980 DEBUG SimpleSocketServer:? - server receive(31): message
+16:34:38,980 DEBUG SimpleSocketClient:? - client receive: message
+16:34:38,991 DEBUG SimpleSocketServer:? - server receive(32): message
+16:34:38,991 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,002 DEBUG SimpleSocketServer:? - server receive(33): message
+16:34:39,003 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,014 DEBUG SimpleSocketServer:? - server receive(34): message
+16:34:39,015 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,026 DEBUG SimpleSocketServer:? - server receive(35): message
+16:34:39,027 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,037 DEBUG SimpleSocketServer:? - server receive(36): message
+16:34:39,038 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,049 DEBUG SimpleSocketServer:? - server receive(37): message
+16:34:39,049 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,060 DEBUG SimpleSocketServer:? - server receive(38): message
+16:34:39,060 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,071 DEBUG SimpleSocketServer:? - server receive(39): message
+16:34:39,072 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,083 DEBUG SimpleSocketServer:? - server receive(40): message
+16:34:39,084 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,094 DEBUG SimpleSocketServer:? - server receive(41): message
+16:34:39,095 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,106 DEBUG SimpleSocketServer:? - server receive(42): message
+16:34:39,107 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,119 DEBUG SimpleSocketServer:? - server receive(43): message
+16:34:39,120 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,131 DEBUG SimpleSocketServer:? - server receive(44): message
+16:34:39,132 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,144 DEBUG SimpleSocketServer:? - server receive(45): message
+16:34:39,145 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,155 DEBUG SimpleSocketServer:? - server receive(46): message
+16:34:39,156 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,167 DEBUG SimpleSocketServer:? - server receive(47): message
+16:34:39,167 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,178 DEBUG SimpleSocketServer:? - server receive(48): message
+16:34:39,179 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,189 DEBUG SimpleSocketServer:? - server receive(49): message
+16:34:39,190 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,201 DEBUG SimpleSocketServer:? - server receive(50): message
+16:34:39,201 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,212 DEBUG SimpleSocketServer:? - server receive(51): message
+16:34:39,212 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,223 DEBUG SimpleSocketServer:? - server receive(52): message
+16:34:39,224 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,235 DEBUG SimpleSocketServer:? - server receive(53): message
+16:34:39,235 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,246 DEBUG SimpleSocketServer:? - server receive(54): message
+16:34:39,247 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,258 DEBUG SimpleSocketServer:? - server receive(55): message
+16:34:39,258 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,269 DEBUG SimpleSocketServer:? - server receive(56): message
+16:34:39,270 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,280 DEBUG SimpleSocketServer:? - server receive(57): message
+16:34:39,281 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,291 DEBUG SimpleSocketServer:? - server receive(58): message
+16:34:39,292 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,302 DEBUG SimpleSocketServer:? - server receive(59): message
+16:34:39,303 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,314 DEBUG SimpleSocketServer:? - server receive(60): message
+16:34:39,315 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,325 DEBUG SimpleSocketServer:? - server receive(61): message
+16:34:39,326 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,337 DEBUG SimpleSocketServer:? - server receive(62): message
+16:34:39,338 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,349 DEBUG SimpleSocketServer:? - server receive(63): message
+16:34:39,349 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,360 DEBUG SimpleSocketServer:? - server receive(64): message
+16:34:39,360 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,371 DEBUG SimpleSocketServer:? - server receive(65): message
+16:34:39,372 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,383 DEBUG SimpleSocketServer:? - server receive(66): message
+16:34:39,383 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,394 DEBUG SimpleSocketServer:? - server receive(67): message
+16:34:39,395 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,406 DEBUG SimpleSocketServer:? - server receive(68): message
+16:34:39,407 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,418 DEBUG SimpleSocketServer:? - server receive(69): message
+16:34:39,422 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,433 DEBUG SimpleSocketServer:? - server receive(70): message
+16:34:39,434 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,444 DEBUG SimpleSocketServer:? - server receive(71): message
+16:34:39,445 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,455 DEBUG SimpleSocketServer:? - server receive(72): message
+16:34:39,456 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,466 DEBUG SimpleSocketServer:? - server receive(73): message
+16:34:39,467 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,478 DEBUG SimpleSocketServer:? - server receive(74): message
+16:34:39,478 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,489 DEBUG SimpleSocketServer:? - server receive(75): message
+16:34:39,489 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,500 DEBUG SimpleSocketServer:? - server receive(76): message
+16:34:39,501 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,511 DEBUG SimpleSocketServer:? - server receive(77): message
+16:34:39,512 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,523 DEBUG SimpleSocketServer:? - server receive(78): message
+16:34:39,524 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,534 DEBUG SimpleSocketServer:? - server receive(79): message
+16:34:39,536 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,547 DEBUG SimpleSocketServer:? - server receive(80): message
+16:34:39,547 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,558 DEBUG SimpleSocketServer:? - server receive(81): message
+16:34:39,559 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,570 DEBUG SimpleSocketServer:? - server receive(82): message
+16:34:39,573 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,584 DEBUG SimpleSocketServer:? - server receive(83): message
+16:34:39,585 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,596 DEBUG SimpleSocketServer:? - server receive(84): message
+16:34:39,597 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,607 DEBUG SimpleSocketServer:? - server receive(85): message
+16:34:39,608 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,619 DEBUG SimpleSocketServer:? - server receive(86): message
+16:34:39,619 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,630 DEBUG SimpleSocketServer:? - server receive(87): message
+16:34:39,631 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,641 DEBUG SimpleSocketServer:? - server receive(88): message
+16:34:39,642 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,652 DEBUG SimpleSocketServer:? - server receive(89): message
+16:34:39,653 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,664 DEBUG SimpleSocketServer:? - server receive(90): message
+16:34:39,664 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,675 DEBUG SimpleSocketServer:? - server receive(91): message
+16:34:39,675 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,686 DEBUG SimpleSocketServer:? - server receive(92): message
+16:34:39,686 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,697 DEBUG SimpleSocketServer:? - server receive(93): message
+16:34:39,697 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,708 DEBUG SimpleSocketServer:? - server receive(94): message
+16:34:39,708 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,719 DEBUG SimpleSocketServer:? - server receive(95): message
+16:34:39,720 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,732 DEBUG SimpleSocketServer:? - server receive(96): message
+16:34:39,733 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,744 DEBUG SimpleSocketServer:? - server receive(97): message
+16:34:39,744 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,755 DEBUG SimpleSocketServer:? - server receive(98): message
+16:34:39,755 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,766 DEBUG SimpleSocketServer:? - server receive(99): message
+16:34:39,767 DEBUG SimpleSocketClient:? - client receive: message
+16:34:39,779 DEBUG SimpleSocketServer:? - server receive exception: Socket closed
+16:34:39,922 DEBUG HTTPBuilder:449 - GET http://localhost:6600/mpushapi/smssubmit
+16:34:40,015 DEBUG SingleClientConnManager:195 - Get connection for route HttpRoute[{}->http://localhost:6600]
+16:34:40,034 DEBUG RequestAddCookies:131 - CookieSpec selected: best-match
+16:34:40,043 DEBUG DefaultHttpClient:481 - Attempt 1 to execute request
+16:34:40,043 DEBUG DefaultClientConnection:250 - Sending request: GET /mpushapi/smssubmit HTTP/1.1
+16:34:40,044 DEBUG wire:78 - >> "GET /mpushapi/smssubmit HTTP/1.1[EOL]"
+16:34:40,044 DEBUG wire:78 - >> "Accept: text/html[EOL]"
+16:34:40,045 DEBUG wire:78 - >> "Host: localhost:6600[EOL]"
+16:34:40,045 DEBUG wire:78 - >> "Connection: Keep-Alive[EOL]"
+16:34:40,049 DEBUG wire:78 - >> "Accept-Encoding: gzip,deflate[EOL]"
+16:34:40,050 DEBUG wire:78 - >> "[EOL]"
+16:34:40,050 DEBUG headers:254 - >> GET /mpushapi/smssubmit HTTP/1.1
+16:34:40,050 DEBUG headers:257 - >> Accept: text/html
+16:34:40,050 DEBUG headers:257 - >> Host: localhost:6600
+16:34:40,050 DEBUG headers:257 - >> Connection: Keep-Alive
+16:34:40,050 DEBUG headers:257 - >> Accept-Encoding: gzip,deflate
+16:34:40,469 DEBUG wire:78 - << "HTTP/1.1 200 OK[EOL]"
+16:34:40,471 DEBUG wire:78 - << "Content-Type: text/xml; charset=utf-8[EOL]"
+16:34:40,471 DEBUG wire:78 - << "Content-Length: 185[EOL]"
+16:34:40,472 DEBUG wire:78 - << "Server: Jetty(6.1.25)[EOL]"
+16:34:40,472 DEBUG wire:78 - << "[EOL]"
+16:34:40,473 DEBUG DefaultClientConnection:235 - Receiving response: HTTP/1.1 200 OK
+16:34:40,473 DEBUG headers:238 - << HTTP/1.1 200 OK
+16:34:40,473 DEBUG headers:241 - << Content-Type: text/xml; charset=utf-8
+16:34:40,473 DEBUG headers:241 - << Content-Length: 185
+16:34:40,473 DEBUG headers:241 - << Server: Jetty(6.1.25)
+16:34:40,476 DEBUG DefaultHttpClient:540 - Connection can be kept alive indefinitely
+16:34:40,479 DEBUG HTTPBuilder:466 - Response code: 200; found handler: SimpleSpec$_spock_feature_0_0_closure1_closure2@2a4bd173
+16:34:40,479 DEBUG HTTPBuilder:544 - Parsing response as: text/html
+16:34:40,502 DEBUG wire:64 - << "<?xml version="1.0" encoding="UTF-8"?>[\n]"
+16:34:40,502 DEBUG wire:64 - << "<SubmitRes>[\n]"
+16:34:40,503 DEBUG wire:64 - << "<MessageId>A13D98F</MessageId>[\n]"
+16:34:40,503 DEBUG wire:64 - << "<ResultCode>00000</ResultCode>[\n]"
+16:34:40,503 DEBUG wire:64 - << "<ResultText>Message accepted for processing.</ResultText>[\n]"
+16:34:40,503 DEBUG wire:64 - << "</SubmitRes>[\n]"
+16:34:40,504 DEBUG wire:64 - << "[\n]"
+16:34:40,508 DEBUG SingleClientConnManager:250 - Releasing connection org.apache.http.impl.conn.SingleClientConnManager$ConnAdapter@1ae3e881
+16:34:40,514 DEBUG HTTPBuilder:547 - Parsed data to instance of: class groovy.util.slurpersupport.NodeChild
+16:34:40,552  INFO SimpleSMS:? - 訊息已轉換為 XML 格式: <?xml version="1.0" encoding="UTF-8" ?>
+<SmsSubmitReq>
+  <SysId>X0KYAODA</SysId>
+  <SrcAddress>01916800020100500000</SrcAddress>
+  <DestAddress>886000000000</DestAddress>
+  <SmsBody>SGkuIFRlc3QgTWVzc2FnZS4=</SmsBody>
+  <DrFlag>true</DrFlag>
+</SmsSubmitReq>
+16:34:40,554 DEBUG HTTPBuilder:449 - POST http://localhost:6600/mpushapi/smssubmit
+16:34:40,555 DEBUG SingleClientConnManager:195 - Get connection for route HttpRoute[{}->http://localhost:6600]
+16:34:40,556 DEBUG RequestAddCookies:131 - CookieSpec selected: best-match
+16:34:40,557 DEBUG DefaultHttpClient:481 - Attempt 1 to execute request
+16:34:40,557 DEBUG DefaultClientConnection:250 - Sending request: POST /mpushapi/smssubmit HTTP/1.1
+16:34:40,557 DEBUG wire:78 - >> "POST /mpushapi/smssubmit HTTP/1.1[EOL]"
+16:34:40,557 DEBUG wire:78 - >> "Accept: application/xml, text/xml, application/xhtml+xml[EOL]"
+16:34:40,558 DEBUG wire:78 - >> "Content-Length: 262[EOL]"
+16:34:40,558 DEBUG wire:78 - >> "Content-Type: application/xml[EOL]"
+16:34:40,558 DEBUG wire:78 - >> "Host: localhost:6600[EOL]"
+16:34:40,558 DEBUG wire:78 - >> "Connection: Keep-Alive[EOL]"
+16:34:40,558 DEBUG wire:78 - >> "Accept-Encoding: gzip,deflate[EOL]"
+16:34:40,559 DEBUG wire:78 - >> "[EOL]"
+16:34:40,559 DEBUG headers:254 - >> POST /mpushapi/smssubmit HTTP/1.1
+16:34:40,559 DEBUG headers:257 - >> Accept: application/xml, text/xml, application/xhtml+xml
+16:34:40,559 DEBUG headers:257 - >> Content-Length: 262
+16:34:40,559 DEBUG headers:257 - >> Content-Type: application/xml
+16:34:40,560 DEBUG headers:257 - >> Host: localhost:6600
+16:34:40,560 DEBUG headers:257 - >> Connection: Keep-Alive
+16:34:40,560 DEBUG headers:257 - >> Accept-Encoding: gzip,deflate
+16:34:40,563 DEBUG wire:64 - >> "{xml=<?xml version="1.0" encoding="UTF-8" ?>[\n]"
+16:34:40,564 DEBUG wire:64 - >> "<SmsSubmitReq>[\n]"
+16:34:40,564 DEBUG wire:64 - >> "  <SysId>X0KYAODA</SysId>[\n]"
+16:34:40,564 DEBUG wire:64 - >> "  <SrcAddress>01916800020100500000</SrcAddress>[\n]"
+16:34:40,564 DEBUG wire:64 - >> "  <DestAddress>886000000000</DestAddress>[\n]"
+16:34:40,565 DEBUG wire:64 - >> "  <SmsBody>SGkuIFRlc3QgTWVzc2FnZS4=</SmsBody>[\n]"
+16:34:40,565 DEBUG wire:64 - >> "  <DrFlag>true</DrFlag>[\n]"
+16:34:40,565 DEBUG wire:78 - >> "</SmsSubmitReq>}"
+16:34:40,565 DEBUG wire:78 - << "HTTP/1.1 200 OK[EOL]"
+16:34:40,566 DEBUG wire:78 - << "Content-Type: text/xml; charset=utf-8[EOL]"
+16:34:40,566 DEBUG wire:78 - << "Content-Length: 185[EOL]"
+16:34:40,566 DEBUG wire:78 - << "Server: Jetty(6.1.25)[EOL]"
+16:34:40,566 DEBUG wire:78 - << "[EOL]"
+16:34:40,566 DEBUG DefaultClientConnection:235 - Receiving response: HTTP/1.1 200 OK
+16:34:40,567 DEBUG headers:238 - << HTTP/1.1 200 OK
+16:34:40,567 DEBUG headers:241 - << Content-Type: text/xml; charset=utf-8
+16:34:40,567 DEBUG headers:241 - << Content-Length: 185
+16:34:40,567 DEBUG headers:241 - << Server: Jetty(6.1.25)
+16:34:40,568 DEBUG DefaultHttpClient:540 - Connection can be kept alive indefinitely
+16:34:40,568 DEBUG HTTPBuilder:466 - Response code: 200; found handler: com.lyhdev.mpush.SimpleSMS$_submit_closure1_closure3@4ec1429c
+16:34:40,568 DEBUG HTTPBuilder:544 - Parsing response as: application/xml
+16:34:40,570 DEBUG wire:64 - << "<?xml version="1.0" encoding="UTF-8"?>[\n]"
+16:34:40,570 DEBUG wire:64 - << "<SubmitRes>[\n]"
+16:34:40,571 DEBUG wire:64 - << "<MessageId>A13D98F</MessageId>[\n]"
+16:34:40,571 DEBUG wire:64 - << "<ResultCode>00000</ResultCode>[\n]"
+16:34:40,571 DEBUG wire:64 - << "<ResultText>Message accepted for processing.</ResultText>[\n]"
+16:34:40,571 DEBUG wire:64 - << "</SubmitRes>[\n]"
+16:34:40,572 DEBUG wire:64 - << "[\n]"
+16:34:40,572 DEBUG SingleClientConnManager:250 - Releasing connection org.apache.http.impl.conn.SingleClientConnManager$ConnAdapter@73983ad7
+16:34:40,572 DEBUG HTTPBuilder:547 - Parsed data to instance of: class groovy.util.slurpersupport.NodeChild
+16:34:40,578  INFO SimpleSMS:? - 訊息傳送結果: [MessageId:A13D98F, ResultCode:00000, ResultText:Message accepted for processing.]
+16:37:28,800 DEBUG SimpleSocketServer:? - server receive(0): message
+16:37:28,803 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:28,804 DEBUG SimpleSocketClient:? - client receive: message
+16:37:28,815 DEBUG SimpleSocketServer:? - server receive exception: Socket closed
+16:37:28,840 DEBUG SimpleSocketServer:? - server receive(0): message
+16:37:28,840 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:28,841 DEBUG SimpleSocketClient:? - client receive: message
+16:37:28,856 DEBUG SimpleSocketServer:? - server receive(1): message
+16:37:28,856 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:28,858 DEBUG SimpleSocketClient:? - client receive: message
+16:37:28,869 DEBUG SimpleSocketServer:? - server receive(2): message
+16:37:28,869 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:28,870 DEBUG SimpleSocketClient:? - client receive: message
+16:37:28,883 DEBUG SimpleSocketServer:? - server receive(3): message
+16:37:28,884 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:28,884 DEBUG SimpleSocketClient:? - client receive: message
+16:37:28,895 DEBUG SimpleSocketServer:? - server receive(4): message
+16:37:28,895 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:28,896 DEBUG SimpleSocketClient:? - client receive: message
+16:37:28,906 DEBUG SimpleSocketServer:? - server receive(5): message
+16:37:28,907 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:28,908 DEBUG SimpleSocketClient:? - client receive: message
+16:37:28,919 DEBUG SimpleSocketServer:? - server receive(6): message
+16:37:28,919 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:28,920 DEBUG SimpleSocketClient:? - client receive: message
+16:37:28,931 DEBUG SimpleSocketServer:? - server receive(7): message
+16:37:28,932 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:28,932 DEBUG SimpleSocketClient:? - client receive: message
+16:37:28,943 DEBUG SimpleSocketServer:? - server receive(8): message
+16:37:28,943 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:28,944 DEBUG SimpleSocketClient:? - client receive: message
+16:37:28,954 DEBUG SimpleSocketServer:? - server receive(9): message
+16:37:28,955 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:28,955 DEBUG SimpleSocketClient:? - client receive: message
+16:37:28,966 DEBUG SimpleSocketServer:? - server receive(10): message
+16:37:28,966 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:28,966 DEBUG SimpleSocketClient:? - client receive: message
+16:37:28,977 DEBUG SimpleSocketServer:? - server receive(11): message
+16:37:28,977 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:28,977 DEBUG SimpleSocketClient:? - client receive: message
+16:37:28,988 DEBUG SimpleSocketServer:? - server receive(12): message
+16:37:28,988 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:28,989 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,000 DEBUG SimpleSocketServer:? - server receive(13): message
+16:37:29,000 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,000 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,012 DEBUG SimpleSocketServer:? - server receive(14): message
+16:37:29,012 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,013 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,024 DEBUG SimpleSocketServer:? - server receive(15): message
+16:37:29,025 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,025 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,036 DEBUG SimpleSocketServer:? - server receive(16): message
+16:37:29,036 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,037 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,047 DEBUG SimpleSocketServer:? - server receive(17): message
+16:37:29,047 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,048 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,058 DEBUG SimpleSocketServer:? - server receive(18): message
+16:37:29,059 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,060 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,070 DEBUG SimpleSocketServer:? - server receive(19): message
+16:37:29,071 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,071 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,081 DEBUG SimpleSocketServer:? - server receive(20): message
+16:37:29,082 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,082 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,093 DEBUG SimpleSocketServer:? - server receive(21): message
+16:37:29,093 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,093 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,104 DEBUG SimpleSocketServer:? - server receive(22): message
+16:37:29,104 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,105 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,115 DEBUG SimpleSocketServer:? - server receive(23): message
+16:37:29,116 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,116 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,127 DEBUG SimpleSocketServer:? - server receive(24): message
+16:37:29,128 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,128 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,139 DEBUG SimpleSocketServer:? - server receive(25): message
+16:37:29,140 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,140 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,151 DEBUG SimpleSocketServer:? - server receive(26): message
+16:37:29,152 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,152 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,163 DEBUG SimpleSocketServer:? - server receive(27): message
+16:37:29,163 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,163 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,174 DEBUG SimpleSocketServer:? - server receive(28): message
+16:37:29,174 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,175 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,185 DEBUG SimpleSocketServer:? - server receive(29): message
+16:37:29,186 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,186 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,197 DEBUG SimpleSocketServer:? - server receive(30): message
+16:37:29,197 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,197 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,208 DEBUG SimpleSocketServer:? - server receive(31): message
+16:37:29,208 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,209 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,219 DEBUG SimpleSocketServer:? - server receive(32): message
+16:37:29,220 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,220 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,231 DEBUG SimpleSocketServer:? - server receive(33): message
+16:37:29,231 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,232 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,243 DEBUG SimpleSocketServer:? - server receive(34): message
+16:37:29,243 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,243 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,254 DEBUG SimpleSocketServer:? - server receive(35): message
+16:37:29,254 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,255 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,265 DEBUG SimpleSocketServer:? - server receive(36): message
+16:37:29,266 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,266 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,277 DEBUG SimpleSocketServer:? - server receive(37): message
+16:37:29,277 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,278 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,288 DEBUG SimpleSocketServer:? - server receive(38): message
+16:37:29,289 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,289 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,299 DEBUG SimpleSocketServer:? - server receive(39): message
+16:37:29,300 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,300 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,311 DEBUG SimpleSocketServer:? - server receive(40): message
+16:37:29,311 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,311 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,322 DEBUG SimpleSocketServer:? - server receive(41): message
+16:37:29,322 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,322 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,333 DEBUG SimpleSocketServer:? - server receive(42): message
+16:37:29,334 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,334 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,345 DEBUG SimpleSocketServer:? - server receive(43): message
+16:37:29,345 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,345 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,356 DEBUG SimpleSocketServer:? - server receive(44): message
+16:37:29,356 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,356 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,367 DEBUG SimpleSocketServer:? - server receive(45): message
+16:37:29,368 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,368 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,379 DEBUG SimpleSocketServer:? - server receive(46): message
+16:37:29,380 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,380 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,390 DEBUG SimpleSocketServer:? - server receive(47): message
+16:37:29,391 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,391 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,402 DEBUG SimpleSocketServer:? - server receive(48): message
+16:37:29,402 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,403 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,414 DEBUG SimpleSocketServer:? - server receive(49): message
+16:37:29,414 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,414 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,425 DEBUG SimpleSocketServer:? - server receive(50): message
+16:37:29,425 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,426 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,437 DEBUG SimpleSocketServer:? - server receive(51): message
+16:37:29,437 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,438 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,449 DEBUG SimpleSocketServer:? - server receive(52): message
+16:37:29,449 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,450 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,460 DEBUG SimpleSocketServer:? - server receive(53): message
+16:37:29,461 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,461 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,472 DEBUG SimpleSocketServer:? - server receive(54): message
+16:37:29,472 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,472 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,483 DEBUG SimpleSocketServer:? - server receive(55): message
+16:37:29,483 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,483 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,494 DEBUG SimpleSocketServer:? - server receive(56): message
+16:37:29,494 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,494 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,505 DEBUG SimpleSocketServer:? - server receive(57): message
+16:37:29,505 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,506 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,517 DEBUG SimpleSocketServer:? - server receive(58): message
+16:37:29,522 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,523 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,534 DEBUG SimpleSocketServer:? - server receive(59): message
+16:37:29,535 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,535 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,546 DEBUG SimpleSocketServer:? - server receive(60): message
+16:37:29,546 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,546 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,557 DEBUG SimpleSocketServer:? - server receive(61): message
+16:37:29,557 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,558 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,568 DEBUG SimpleSocketServer:? - server receive(62): message
+16:37:29,568 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,569 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,579 DEBUG SimpleSocketServer:? - server receive(63): message
+16:37:29,580 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,580 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,591 DEBUG SimpleSocketServer:? - server receive(64): message
+16:37:29,591 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,591 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,602 DEBUG SimpleSocketServer:? - server receive(65): message
+16:37:29,603 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,603 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,613 DEBUG SimpleSocketServer:? - server receive(66): message
+16:37:29,614 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,614 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,625 DEBUG SimpleSocketServer:? - server receive(67): message
+16:37:29,625 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,625 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,636 DEBUG SimpleSocketServer:? - server receive(68): message
+16:37:29,636 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,637 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,647 DEBUG SimpleSocketServer:? - server receive(69): message
+16:37:29,648 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,648 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,659 DEBUG SimpleSocketServer:? - server receive(70): message
+16:37:29,659 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,659 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,670 DEBUG SimpleSocketServer:? - server receive(71): message
+16:37:29,671 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,671 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,681 DEBUG SimpleSocketServer:? - server receive(72): message
+16:37:29,682 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,682 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,693 DEBUG SimpleSocketServer:? - server receive(73): message
+16:37:29,693 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,693 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,704 DEBUG SimpleSocketServer:? - server receive(74): message
+16:37:29,704 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,704 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,715 DEBUG SimpleSocketServer:? - server receive(75): message
+16:37:29,715 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,715 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,726 DEBUG SimpleSocketServer:? - server receive(76): message
+16:37:29,727 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,727 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,738 DEBUG SimpleSocketServer:? - server receive(77): message
+16:37:29,738 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,738 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,749 DEBUG SimpleSocketServer:? - server receive(78): message
+16:37:29,749 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,749 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,760 DEBUG SimpleSocketServer:? - server receive(79): message
+16:37:29,760 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,761 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,772 DEBUG SimpleSocketServer:? - server receive(80): message
+16:37:29,772 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,773 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,784 DEBUG SimpleSocketServer:? - server receive(81): message
+16:37:29,784 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,785 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,795 DEBUG SimpleSocketServer:? - server receive(82): message
+16:37:29,796 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,796 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,807 DEBUG SimpleSocketServer:? - server receive(83): message
+16:37:29,807 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,807 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,818 DEBUG SimpleSocketServer:? - server receive(84): message
+16:37:29,818 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,819 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,830 DEBUG SimpleSocketServer:? - server receive(85): message
+16:37:29,830 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,830 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,841 DEBUG SimpleSocketServer:? - server receive(86): message
+16:37:29,841 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,841 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,852 DEBUG SimpleSocketServer:? - server receive(87): message
+16:37:29,852 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,852 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,863 DEBUG SimpleSocketServer:? - server receive(88): message
+16:37:29,863 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,863 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,874 DEBUG SimpleSocketServer:? - server receive(89): message
+16:37:29,874 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,874 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,885 DEBUG SimpleSocketServer:? - server receive(90): message
+16:37:29,885 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,886 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,896 DEBUG SimpleSocketServer:? - server receive(91): message
+16:37:29,897 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,897 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,908 DEBUG SimpleSocketServer:? - server receive(92): message
+16:37:29,908 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,908 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,919 DEBUG SimpleSocketServer:? - server receive(93): message
+16:37:29,919 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,919 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,930 DEBUG SimpleSocketServer:? - server receive(94): message
+16:37:29,930 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,931 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,941 DEBUG SimpleSocketServer:? - server receive(95): message
+16:37:29,942 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,942 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,953 DEBUG SimpleSocketServer:? - server receive(96): message
+16:37:29,954 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,954 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,965 DEBUG SimpleSocketServer:? - server receive(97): message
+16:37:29,965 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,966 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,977 DEBUG SimpleSocketServer:? - server receive(98): message
+16:37:29,977 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,977 DEBUG SimpleSocketClient:? - client receive: message
+16:37:29,988 DEBUG SimpleSocketServer:? - server receive(99): message
+16:37:29,988 DEBUG SimpleSocketServer:? - No action defined. data='message'
+16:37:29,988 DEBUG SimpleSocketClient:? - client receive: message
+16:37:30,001 DEBUG SimpleSocketServer:? - server receive exception: Socket closed
+16:37:30,150 DEBUG HTTPBuilder:449 - GET http://localhost:6600/mpushapi/smssubmit
+16:37:30,241 DEBUG SingleClientConnManager:195 - Get connection for route HttpRoute[{}->http://localhost:6600]
+16:37:30,259 DEBUG RequestAddCookies:131 - CookieSpec selected: best-match
+16:37:30,268 DEBUG DefaultHttpClient:481 - Attempt 1 to execute request
+16:37:30,268 DEBUG DefaultClientConnection:250 - Sending request: GET /mpushapi/smssubmit HTTP/1.1
+16:37:30,269 DEBUG wire:78 - >> "GET /mpushapi/smssubmit HTTP/1.1[EOL]"
+16:37:30,270 DEBUG wire:78 - >> "Accept: text/html[EOL]"
+16:37:30,270 DEBUG wire:78 - >> "Host: localhost:6600[EOL]"
+16:37:30,270 DEBUG wire:78 - >> "Connection: Keep-Alive[EOL]"
+16:37:30,270 DEBUG wire:78 - >> "Accept-Encoding: gzip,deflate[EOL]"
+16:37:30,272 DEBUG wire:78 - >> "[EOL]"
+16:37:30,272 DEBUG headers:254 - >> GET /mpushapi/smssubmit HTTP/1.1
+16:37:30,272 DEBUG headers:257 - >> Accept: text/html
+16:37:30,272 DEBUG headers:257 - >> Host: localhost:6600
+16:37:30,273 DEBUG headers:257 - >> Connection: Keep-Alive
+16:37:30,273 DEBUG headers:257 - >> Accept-Encoding: gzip,deflate
+16:37:30,685 DEBUG wire:78 - << "HTTP/1.1 200 OK[EOL]"
+16:37:30,688 DEBUG wire:78 - << "Content-Type: text/xml; charset=utf-8[EOL]"
+16:37:30,689 DEBUG wire:78 - << "Content-Length: 185[EOL]"
+16:37:30,689 DEBUG wire:78 - << "Server: Jetty(6.1.25)[EOL]"
+16:37:30,689 DEBUG wire:78 - << "[EOL]"
+16:37:30,691 DEBUG DefaultClientConnection:235 - Receiving response: HTTP/1.1 200 OK
+16:37:30,691 DEBUG headers:238 - << HTTP/1.1 200 OK
+16:37:30,691 DEBUG headers:241 - << Content-Type: text/xml; charset=utf-8
+16:37:30,692 DEBUG headers:241 - << Content-Length: 185
+16:37:30,692 DEBUG headers:241 - << Server: Jetty(6.1.25)
+16:37:30,697 DEBUG DefaultHttpClient:540 - Connection can be kept alive indefinitely
+16:37:30,699 DEBUG HTTPBuilder:466 - Response code: 200; found handler: SimpleSpec$_spock_feature_0_0_closure1_closure2@66fbf51d
+16:37:30,700 DEBUG HTTPBuilder:544 - Parsing response as: text/html
+16:37:30,724 DEBUG wire:64 - << "<?xml version="1.0" encoding="UTF-8"?>[\n]"
+16:37:30,724 DEBUG wire:64 - << "<SubmitRes>[\n]"
+16:37:30,724 DEBUG wire:64 - << "<MessageId>A13D98F</MessageId>[\n]"
+16:37:30,725 DEBUG wire:64 - << "<ResultCode>00000</ResultCode>[\n]"
+16:37:30,725 DEBUG wire:64 - << "<ResultText>Message accepted for processing.</ResultText>[\n]"
+16:37:30,725 DEBUG wire:64 - << "</SubmitRes>[\n]"
+16:37:30,725 DEBUG wire:64 - << "[\n]"
+16:37:30,730 DEBUG SingleClientConnManager:250 - Releasing connection org.apache.http.impl.conn.SingleClientConnManager$ConnAdapter@40974600
+16:37:30,738 DEBUG HTTPBuilder:547 - Parsed data to instance of: class groovy.util.slurpersupport.NodeChild
+16:37:30,771  INFO SimpleSMS:? - 訊息已轉換為 XML 格式: <?xml version="1.0" encoding="UTF-8" ?>
+<SmsSubmitReq>
+  <SysId>X0KYAODA</SysId>
+  <SrcAddress>01916800020100500000</SrcAddress>
+  <DestAddress>886000000000</DestAddress>
+  <SmsBody>SGkuIFRlc3QgTWVzc2FnZS4=</SmsBody>
+  <DrFlag>true</DrFlag>
+</SmsSubmitReq>
+16:37:30,773 DEBUG HTTPBuilder:449 - POST http://localhost:6600/mpushapi/smssubmit
+16:37:30,774 DEBUG SingleClientConnManager:195 - Get connection for route HttpRoute[{}->http://localhost:6600]
+16:37:30,775 DEBUG RequestAddCookies:131 - CookieSpec selected: best-match
+16:37:30,775 DEBUG DefaultHttpClient:481 - Attempt 1 to execute request
+16:37:30,775 DEBUG DefaultClientConnection:250 - Sending request: POST /mpushapi/smssubmit HTTP/1.1
+16:37:30,775 DEBUG wire:78 - >> "POST /mpushapi/smssubmit HTTP/1.1[EOL]"
+16:37:30,776 DEBUG wire:78 - >> "Accept: application/xml, text/xml, application/xhtml+xml[EOL]"
+16:37:30,776 DEBUG wire:78 - >> "Content-Length: 262[EOL]"
+16:37:30,776 DEBUG wire:78 - >> "Content-Type: application/xml[EOL]"
+16:37:30,776 DEBUG wire:78 - >> "Host: localhost:6600[EOL]"
+16:37:30,777 DEBUG wire:78 - >> "Connection: Keep-Alive[EOL]"
+16:37:30,777 DEBUG wire:78 - >> "Accept-Encoding: gzip,deflate[EOL]"
+16:37:30,777 DEBUG wire:78 - >> "[EOL]"
+16:37:30,777 DEBUG headers:254 - >> POST /mpushapi/smssubmit HTTP/1.1
+16:37:30,777 DEBUG headers:257 - >> Accept: application/xml, text/xml, application/xhtml+xml
+16:37:30,778 DEBUG headers:257 - >> Content-Length: 262
+16:37:30,778 DEBUG headers:257 - >> Content-Type: application/xml
+16:37:30,778 DEBUG headers:257 - >> Host: localhost:6600
+16:37:30,778 DEBUG headers:257 - >> Connection: Keep-Alive
+16:37:30,778 DEBUG headers:257 - >> Accept-Encoding: gzip,deflate
+16:37:30,779 DEBUG wire:64 - >> "{xml=<?xml version="1.0" encoding="UTF-8" ?>[\n]"
+16:37:30,779 DEBUG wire:64 - >> "<SmsSubmitReq>[\n]"
+16:37:30,779 DEBUG wire:64 - >> "  <SysId>X0KYAODA</SysId>[\n]"
+16:37:30,780 DEBUG wire:64 - >> "  <SrcAddress>01916800020100500000</SrcAddress>[\n]"
+16:37:30,780 DEBUG wire:64 - >> "  <DestAddress>886000000000</DestAddress>[\n]"
+16:37:30,780 DEBUG wire:64 - >> "  <SmsBody>SGkuIFRlc3QgTWVzc2FnZS4=</SmsBody>[\n]"
+16:37:30,780 DEBUG wire:64 - >> "  <DrFlag>true</DrFlag>[\n]"
+16:37:30,780 DEBUG wire:78 - >> "</SmsSubmitReq>}"
+16:37:30,788 DEBUG wire:78 - << "HTTP/1.1 200 OK[EOL]"
+16:37:30,789 DEBUG wire:78 - << "Content-Type: text/xml; charset=utf-8[EOL]"
+16:37:30,789 DEBUG wire:78 - << "Content-Length: 185[EOL]"
+16:37:30,789 DEBUG wire:78 - << "Server: Jetty(6.1.25)[EOL]"
+16:37:30,790 DEBUG wire:78 - << "[EOL]"
+16:37:30,790 DEBUG DefaultClientConnection:235 - Receiving response: HTTP/1.1 200 OK
+16:37:30,791 DEBUG headers:238 - << HTTP/1.1 200 OK
+16:37:30,791 DEBUG headers:241 - << Content-Type: text/xml; charset=utf-8
+16:37:30,791 DEBUG headers:241 - << Content-Length: 185
+16:37:30,791 DEBUG headers:241 - << Server: Jetty(6.1.25)
+16:37:30,792 DEBUG DefaultHttpClient:540 - Connection can be kept alive indefinitely
+16:37:30,792 DEBUG HTTPBuilder:466 - Response code: 200; found handler: com.lyhdev.mpush.SimpleSMS$_submit_closure1_closure3@3a329572
+16:37:30,792 DEBUG HTTPBuilder:544 - Parsing response as: application/xml
+16:37:30,796 DEBUG wire:64 - << "<?xml version="1.0" encoding="UTF-8"?>[\n]"
+16:37:30,797 DEBUG wire:64 - << "<SubmitRes>[\n]"
+16:37:30,797 DEBUG wire:64 - << "<MessageId>A13D98F</MessageId>[\n]"
+16:37:30,797 DEBUG wire:64 - << "<ResultCode>00000</ResultCode>[\n]"
+16:37:30,798 DEBUG wire:64 - << "<ResultText>Message accepted for processing.</ResultText>[\n]"
+16:37:30,798 DEBUG wire:64 - << "</SubmitRes>[\n]"
+16:37:30,799 DEBUG wire:64 - << "[\n]"
+16:37:30,800 DEBUG SingleClientConnManager:250 - Releasing connection org.apache.http.impl.conn.SingleClientConnManager$ConnAdapter@11c0b8a0
+16:37:30,801 DEBUG HTTPBuilder:547 - Parsed data to instance of: class groovy.util.slurpersupport.NodeChild
+16:37:30,806  INFO SimpleSMS:? - 訊息傳送結果: [MessageId:A13D98F, ResultCode:00000, ResultText:Message accepted for processing.]
+17:22:06,592 DEBUG SimpleAdmin:? - groovy.sql.Sql@3ef3c5c4
+17:26:46,038  INFO SimpleAdmin:? - 啟動服務
+17:28:30,029  INFO SimpleAdmin:? - 啟動服務
+17:28:31,211  INFO SimpleAdmin:? - 送出 
+17:28:33,482  INFO SimpleAdmin:? - 送出 xczxc
+17:30:09,715  INFO SimpleAdmin:? - 啟動服務
+17:30:13,983  INFO SimpleAdmin:? - 送出 '2001'
+17:30:44,045 DEBUG SimpleSocketClient:? - client receive exception: Receive timed out
+17:30:44,045 DEBUG SimpleSocketClient:? - client receive:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+17:31:42,594  INFO SimpleAdmin:? - 啟動服務
+17:31:44,964 DEBUG SimpleAdmin:? - groovy.sql.Sql@13ceebfa
+17:31:52,638  INFO SimpleAdmin:? - 送出 ''
+17:32:04,480  INFO SimpleAdmin:? - 送出 '2011'
+17:32:22,703 DEBUG SimpleSocketClient:? - client receive exception: Receive timed out
+17:32:22,704 DEBUG SimpleSocketClient:? - client receive:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+17:32:34,514 DEBUG SimpleSocketClient:? - client receive exception: Receive timed out
+17:32:34,515 DEBUG SimpleSocketClient:? - client receive:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+17:33:58,561  INFO SimpleAdmin:? - 啟動服務
+17:34:01,619 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:34:04,621 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:34:07,624 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:34:10,628 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:34:13,629 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:34:15,302  INFO SimpleAdmin:? - 送出 '2001'
+17:34:15,329 DEBUG SimpleSocketServer:? - server receive(0): 2001
+17:34:15,333 DEBUG SimpleSocketClient:? - client receive: 2001
+17:34:18,333 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:34:21,335 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:34:24,336 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:34:27,339 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:34:30,343 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:34:33,345 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:34:36,347 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:34:39,350 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:34:42,351 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:34:45,353 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:34:48,355 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:34:51,359 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:34:54,362 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:34:57,364 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:35:00,365 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:35:03,369 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:35:06,371 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:35:09,373 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:35:12,374 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:35:15,378 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:35:18,380 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:35:21,381 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:35:24,384 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:35:27,388 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:35:30,391 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:35:33,393 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:35:36,395 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:40:49,169  INFO SimpleAdmin:? - 啟動服務
+17:40:52,221 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:40:55,221 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:40:58,225 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:41:01,227 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:41:04,230 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:41:07,233 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:41:10,237 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:41:13,239 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:41:16,241 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:41:19,245 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:41:22,248 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:41:25,249 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:41:28,252 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:41:31,256 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:41:34,257 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:41:37,260 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:41:40,263 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:41:43,265 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:41:46,268 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:41:49,271 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:41:52,275 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:41:55,277 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:41:58,280 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:42:01,282 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:42:04,285 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:42:07,289 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:42:10,291 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:42:24,031  INFO SimpleAdmin:? - 啟動服務
+17:42:38,891  INFO SimpleAdmin:? - 啟動服務
+17:42:41,951 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:42:43,676  INFO SimpleAdmin:? - 停止服務
+17:42:43,681 DEBUG SimpleSocketServer:? - server receive exception: Socket closed
+17:42:45,675  INFO SimpleAdmin:? - 啟動服務
+17:42:48,677  INFO SimpleAdmin:? - 停止服務
+17:42:48,678 DEBUG SimpleSocketServer:? - server receive exception: Socket closed
+17:42:49,396  INFO SimpleAdmin:? - 啟動服務
+17:42:50,011  INFO SimpleAdmin:? - 停止服務
+17:42:50,011 DEBUG SimpleSocketServer:? - server receive exception: Socket closed
+17:42:58,157  INFO SimpleAdmin:? - 啟動服務
+17:42:58,778  INFO SimpleAdmin:? - 停止服務
+17:42:58,779 DEBUG SimpleSocketServer:? - server receive exception: Socket closed
+17:42:59,902  INFO SimpleAdmin:? - 啟動服務
+17:43:02,913 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:43:05,917 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:43:08,920 DEBUG SimpleSocketServer:? - server receive exception: Receive timed out
+17:43:10,695  INFO SimpleAdmin:? - 停止服務
+17:43:10,695 DEBUG SimpleSocketServer:? - server receive exception: Socket closed
+17:44:23,200  INFO SimpleAdmin:? - 啟動服務
+17:44:26,959  INFO SimpleAdmin:? - 送出 '2001'
+17:44:26,999 DEBUG SimpleSocketServer:? - server receive(0): 2001
+17:44:27,001 DEBUG SimpleSocketClient:? - client receive: 2001
+17:44:31,205  INFO SimpleAdmin:? - 送出 '2001'
+17:44:31,208 DEBUG SimpleSocketServer:? - server receive(1): 2001
+17:44:31,214 DEBUG SimpleSocketClient:? - client receive: 2001
+17:44:31,866  INFO SimpleAdmin:? - 送出 '2001'
+17:44:31,893 DEBUG SimpleSocketServer:? - server receive(2): 2001
+17:44:31,897 DEBUG SimpleSocketClient:? - client receive: 2001
+17:44:32,318  INFO SimpleAdmin:? - 送出 '2001'
+17:44:32,319 DEBUG SimpleSocketServer:? - server receive(3): 2001
+17:44:32,320 DEBUG SimpleSocketClient:? - client receive: 2001
+17:44:32,499  INFO SimpleAdmin:? - 送出 '2001'
+17:44:32,500 DEBUG SimpleSocketServer:? - server receive(4): 2001
+17:44:32,502 DEBUG SimpleSocketClient:? - client receive: 2001
+17:44:32,665  INFO SimpleAdmin:? - 送出 '2001'
+17:44:32,666 DEBUG SimpleSocketServer:? - server receive(5): 2001
+17:44:32,667 DEBUG SimpleSocketClient:? - client receive: 2001
+17:44:32,817  INFO SimpleAdmin:? - 送出 '2001'
+17:44:32,818 DEBUG SimpleSocketServer:? - server receive(6): 2001
+17:44:32,818 DEBUG SimpleSocketClient:? - client receive: 2001
+17:44:32,982  INFO SimpleAdmin:? - 送出 '2001'
+17:44:32,984 DEBUG SimpleSocketServer:? - server receive(7): 2001
+17:44:32,988 DEBUG SimpleSocketClient:? - client receive: 2001
+17:44:33,130  INFO SimpleAdmin:? - 送出 '2001'
+17:44:33,130 DEBUG SimpleSocketServer:? - server receive(8): 2001
+17:44:33,131 DEBUG SimpleSocketClient:? - client receive: 2001
+17:44:33,280  INFO SimpleAdmin:? - 送出 '2001'
+17:44:33,281 DEBUG SimpleSocketServer:? - server receive(9): 2001
+17:44:33,282 DEBUG SimpleSocketClient:? - client receive: 2001
+17:44:33,438  INFO SimpleAdmin:? - 送出 '2001'
+17:44:33,438 DEBUG SimpleSocketServer:? - server receive(10): 2001
+17:44:33,439 DEBUG SimpleSocketClient:? - client receive: 2001
+17:44:33,579  INFO SimpleAdmin:? - 送出 '2001'
+17:44:33,579 DEBUG SimpleSocketServer:? - server receive(11): 2001
+17:44:33,580 DEBUG SimpleSocketClient:? - client receive: 2001
+17:44:33,738  INFO SimpleAdmin:? - 送出 '2001'
+17:44:33,739 DEBUG SimpleSocketServer:? - server receive(12): 2001
+17:44:33,739 DEBUG SimpleSocketClient:? - client receive: 2001
+17:44:33,904  INFO SimpleAdmin:? - 送出 '2001'
+17:44:33,905 DEBUG SimpleSocketServer:? - server receive(13): 2001
+17:44:33,905 DEBUG SimpleSocketClient:? - client receive: 2001
+17:44:34,055  INFO SimpleAdmin:? - 送出 '2001'
+17:44:34,057 DEBUG SimpleSocketServer:? - server receive(14): 2001
+17:44:34,057 DEBUG SimpleSocketClient:? - client receive: 2001
+17:44:34,204  INFO SimpleAdmin:? - 送出 '2001'
+17:44:34,207 DEBUG SimpleSocketServer:? - server receive(15): 2001
+17:44:34,208 DEBUG SimpleSocketClient:? - client receive: 2001
+17:44:34,368  INFO SimpleAdmin:? - 送出 '2001'
+17:44:34,369 DEBUG SimpleSocketServer:? - server receive(16): 2001
+17:44:34,370 DEBUG SimpleSocketClient:? - client receive: 2001
+17:44:34,509  INFO SimpleAdmin:? - 送出 '2001'
+17:44:34,509 DEBUG SimpleSocketServer:? - server receive(17): 2001
+17:44:34,510 DEBUG SimpleSocketClient:? - client receive: 2001
+17:44:34,664  INFO SimpleAdmin:? - 送出 '2001'
+17:44:34,665 DEBUG SimpleSocketServer:? - server receive(18): 2001
+17:44:34,666 DEBUG SimpleSocketClient:? - client receive: 2001
+17:44:34,830  INFO SimpleAdmin:? - 送出 '2001'
+17:44:34,832 DEBUG SimpleSocketServer:? - server receive(19): 2001
+17:44:34,832 DEBUG SimpleSocketClient:? - client receive: 2001
+17:44:34,966  INFO SimpleAdmin:? - 送出 '2001'
+17:44:34,967 DEBUG SimpleSocketServer:? - server receive(20): 2001
+17:44:34,969 DEBUG SimpleSocketClient:? - client receive: 2001
+17:45:43,463  INFO SimpleAdmin:? - 啟動服務
+17:45:46,950  INFO SimpleAdmin:? - 送出 '2001'
+17:45:46,985 DEBUG SimpleSocketServer:? - server receive(0): 2001
+17:45:46,989 DEBUG SimpleSocketClient:? - client receive: 2001
+17:45:49,707  INFO SimpleAdmin:? - 送出 '2001'
+17:45:49,711 DEBUG SimpleSocketServer:? - server receive(1): 2001
+17:45:49,722 DEBUG SimpleSocketClient:? - client receive: 2001
+17:45:55,613  INFO SimpleAdmin:? - 送出 '2001'
+17:45:55,634 DEBUG SimpleSocketServer:? - server receive(2): 2001
+17:45:55,641 DEBUG SimpleSocketClient:? - client receive: 2001
+17:45:56,401  INFO SimpleAdmin:? - 送出 '2001'
+17:45:56,403 DEBUG SimpleSocketServer:? - server receive(3): 2001
+17:45:56,404 DEBUG SimpleSocketClient:? - client receive: 2001
+17:45:57,050  INFO SimpleAdmin:? - 送出 '2001'
+17:45:57,054 DEBUG SimpleSocketServer:? - server receive(4): 2001
+17:45:57,054 DEBUG SimpleSocketClient:? - client receive: 2001
+17:45:57,476  INFO SimpleAdmin:? - 送出 '2001'
+17:45:57,480 DEBUG SimpleSocketServer:? - server receive(5): 2001
+17:45:57,481 DEBUG SimpleSocketClient:? - client receive: 2001
+17:45:57,779  INFO SimpleAdmin:? - 送出 '2001'
+17:45:57,782 DEBUG SimpleSocketServer:? - server receive(6): 2001
+17:45:57,785 DEBUG SimpleSocketClient:? - client receive: 2001
+17:45:57,934  INFO SimpleAdmin:? - 送出 '2001'
+17:45:57,936 DEBUG SimpleSocketServer:? - server receive(7): 2001
+17:45:57,939 DEBUG SimpleSocketClient:? - client receive: 2001
+17:45:58,096  INFO SimpleAdmin:? - 送出 '2001'
+17:45:58,099 DEBUG SimpleSocketServer:? - server receive(8): 2001
+17:45:58,100 DEBUG SimpleSocketClient:? - client receive: 2001
+17:45:58,242  INFO SimpleAdmin:? - 送出 '2001'
+17:45:58,245 DEBUG SimpleSocketServer:? - server receive(9): 2001
+17:45:58,247 DEBUG SimpleSocketClient:? - client receive: 2001
+17:45:58,394  INFO SimpleAdmin:? - 送出 '2001'
+17:45:58,396 DEBUG SimpleSocketServer:? - server receive(10): 2001
+17:45:58,398 DEBUG SimpleSocketClient:? - client receive: 2001
+17:45:58,554  INFO SimpleAdmin:? - 送出 '2001'
+17:45:58,557 DEBUG SimpleSocketServer:? - server receive(11): 2001
+17:45:58,559 DEBUG SimpleSocketClient:? - client receive: 2001
+17:45:58,712  INFO SimpleAdmin:? - 送出 '2001'
+17:45:58,713 DEBUG SimpleSocketServer:? - server receive(12): 2001
+17:45:58,714 DEBUG SimpleSocketClient:? - client receive: 2001
+17:45:58,881  INFO SimpleAdmin:? - 送出 '2001'
+17:45:58,883 DEBUG SimpleSocketServer:? - server receive(13): 2001
+17:45:58,884 DEBUG SimpleSocketClient:? - client receive: 2001
+17:47:30,180  INFO SimpleAdmin:? - 啟動服務
+17:47:34,685  INFO SimpleAdmin:? - 送出 '2001'
+17:47:34,722 DEBUG SimpleSocketServer:? - server receive(0): 2001
+17:47:34,725 DEBUG SimpleSocketClient:? - client receive: 2001
+17:48:42,521  INFO SimpleAdmin:? - 啟動服務
+17:48:44,221  INFO SimpleAdmin:? - 手動送出 '2001'
+17:48:44,266 DEBUG SimpleSocketServer:? - server receive(0): 2001
+17:48:44,269 DEBUG SimpleSocketClient:? - client receive: 2001
+17:48:45,420  INFO SimpleAdmin:? - 手動送出 '2001'
+17:48:45,425 DEBUG SimpleSocketServer:? - server receive(1): 2001
+17:48:45,429 DEBUG SimpleSocketClient:? - client receive: 2001
+17:48:45,992  INFO SimpleAdmin:? - 手動送出 '2001'
+17:48:46,022 DEBUG SimpleSocketServer:? - server receive(2): 2001
+17:48:46,036 DEBUG SimpleSocketClient:? - client receive: 2001
+17:48:46,483  INFO SimpleAdmin:? - 手動送出 '2001'
+17:48:46,488 DEBUG SimpleSocketServer:? - server receive(3): 2001
+17:48:46,491 DEBUG SimpleSocketClient:? - client receive: 2001
+17:59:11,264 DEBUG SimpleSocketServer:? - server receive(0): message
+17:59:11,267 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,268 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,279 DEBUG SimpleSocketServer:? - server receive exception: Socket closed
+17:59:11,305 DEBUG SimpleSocketServer:? - server receive(0): message
+17:59:11,305 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,307 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,322 DEBUG SimpleSocketServer:? - server receive(1): message
+17:59:11,322 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,324 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,335 DEBUG SimpleSocketServer:? - server receive(2): message
+17:59:11,335 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,336 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,346 DEBUG SimpleSocketServer:? - server receive(3): message
+17:59:11,347 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,348 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,360 DEBUG SimpleSocketServer:? - server receive(4): message
+17:59:11,361 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,362 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,372 DEBUG SimpleSocketServer:? - server receive(5): message
+17:59:11,373 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,374 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,385 DEBUG SimpleSocketServer:? - server receive(6): message
+17:59:11,386 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,387 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,398 DEBUG SimpleSocketServer:? - server receive(7): message
+17:59:11,398 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,399 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,409 DEBUG SimpleSocketServer:? - server receive(8): message
+17:59:11,409 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,410 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,421 DEBUG SimpleSocketServer:? - server receive(9): message
+17:59:11,421 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,422 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,433 DEBUG SimpleSocketServer:? - server receive(10): message
+17:59:11,433 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,434 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,445 DEBUG SimpleSocketServer:? - server receive(11): message
+17:59:11,445 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,446 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,458 DEBUG SimpleSocketServer:? - server receive(12): message
+17:59:11,458 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,458 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,469 DEBUG SimpleSocketServer:? - server receive(13): message
+17:59:11,470 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,470 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,482 DEBUG SimpleSocketServer:? - server receive(14): message
+17:59:11,482 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,484 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,495 DEBUG SimpleSocketServer:? - server receive(15): message
+17:59:11,496 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,496 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,508 DEBUG SimpleSocketServer:? - server receive(16): message
+17:59:11,508 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,509 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,520 DEBUG SimpleSocketServer:? - server receive(17): message
+17:59:11,520 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,521 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,531 DEBUG SimpleSocketServer:? - server receive(18): message
+17:59:11,532 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,532 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,543 DEBUG SimpleSocketServer:? - server receive(19): message
+17:59:11,543 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,543 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,554 DEBUG SimpleSocketServer:? - server receive(20): message
+17:59:11,554 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,555 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,566 DEBUG SimpleSocketServer:? - server receive(21): message
+17:59:11,566 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,567 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,578 DEBUG SimpleSocketServer:? - server receive(22): message
+17:59:11,579 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,579 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,590 DEBUG SimpleSocketServer:? - server receive(23): message
+17:59:11,590 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,591 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,602 DEBUG SimpleSocketServer:? - server receive(24): message
+17:59:11,603 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,603 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,614 DEBUG SimpleSocketServer:? - server receive(25): message
+17:59:11,615 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,615 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,626 DEBUG SimpleSocketServer:? - server receive(26): message
+17:59:11,627 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,627 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,639 DEBUG SimpleSocketServer:? - server receive(27): message
+17:59:11,640 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,640 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,651 DEBUG SimpleSocketServer:? - server receive(28): message
+17:59:11,652 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,652 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,663 DEBUG SimpleSocketServer:? - server receive(29): message
+17:59:11,663 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,664 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,675 DEBUG SimpleSocketServer:? - server receive(30): message
+17:59:11,675 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,676 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,687 DEBUG SimpleSocketServer:? - server receive(31): message
+17:59:11,687 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,688 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,699 DEBUG SimpleSocketServer:? - server receive(32): message
+17:59:11,699 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,700 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,711 DEBUG SimpleSocketServer:? - server receive(33): message
+17:59:11,711 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,712 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,723 DEBUG SimpleSocketServer:? - server receive(34): message
+17:59:11,723 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,724 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,735 DEBUG SimpleSocketServer:? - server receive(35): message
+17:59:11,735 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,736 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,747 DEBUG SimpleSocketServer:? - server receive(36): message
+17:59:11,747 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,748 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,758 DEBUG SimpleSocketServer:? - server receive(37): message
+17:59:11,759 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,759 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,770 DEBUG SimpleSocketServer:? - server receive(38): message
+17:59:11,771 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,771 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,783 DEBUG SimpleSocketServer:? - server receive(39): message
+17:59:11,783 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,784 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,795 DEBUG SimpleSocketServer:? - server receive(40): message
+17:59:11,795 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,795 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,806 DEBUG SimpleSocketServer:? - server receive(41): message
+17:59:11,806 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,807 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,818 DEBUG SimpleSocketServer:? - server receive(42): message
+17:59:11,818 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,819 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,830 DEBUG SimpleSocketServer:? - server receive(43): message
+17:59:11,830 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,831 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,842 DEBUG SimpleSocketServer:? - server receive(44): message
+17:59:11,842 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,843 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,854 DEBUG SimpleSocketServer:? - server receive(45): message
+17:59:11,854 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,855 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,866 DEBUG SimpleSocketServer:? - server receive(46): message
+17:59:11,866 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,866 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,877 DEBUG SimpleSocketServer:? - server receive(47): message
+17:59:11,877 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,878 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,889 DEBUG SimpleSocketServer:? - server receive(48): message
+17:59:11,890 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,890 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,902 DEBUG SimpleSocketServer:? - server receive(49): message
+17:59:11,902 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,904 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,915 DEBUG SimpleSocketServer:? - server receive(50): message
+17:59:11,915 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,916 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,928 DEBUG SimpleSocketServer:? - server receive(51): message
+17:59:11,928 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,928 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,939 DEBUG SimpleSocketServer:? - server receive(52): message
+17:59:11,939 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,940 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,950 DEBUG SimpleSocketServer:? - server receive(53): message
+17:59:11,951 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,951 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,963 DEBUG SimpleSocketServer:? - server receive(54): message
+17:59:11,964 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,964 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,975 DEBUG SimpleSocketServer:? - server receive(55): message
+17:59:11,976 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,976 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,987 DEBUG SimpleSocketServer:? - server receive(56): message
+17:59:11,987 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,988 DEBUG SimpleSocketClient:? - client receive: message
+17:59:11,998 DEBUG SimpleSocketServer:? - server receive(57): message
+17:59:11,999 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:11,999 DEBUG SimpleSocketClient:? - client receive: message
+17:59:12,010 DEBUG SimpleSocketServer:? - server receive(58): message
+17:59:12,010 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:12,010 DEBUG SimpleSocketClient:? - client receive: message
+17:59:12,021 DEBUG SimpleSocketServer:? - server receive(59): message
+17:59:12,021 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:12,021 DEBUG SimpleSocketClient:? - client receive: message
+17:59:12,032 DEBUG SimpleSocketServer:? - server receive(60): message
+17:59:12,032 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:12,046 DEBUG SimpleSocketClient:? - client receive: message
+17:59:12,057 DEBUG SimpleSocketServer:? - server receive(61): message
+17:59:12,057 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:12,057 DEBUG SimpleSocketClient:? - client receive: message
+17:59:12,068 DEBUG SimpleSocketServer:? - server receive(62): message
+17:59:12,068 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:12,068 DEBUG SimpleSocketClient:? - client receive: message
+17:59:12,079 DEBUG SimpleSocketServer:? - server receive(63): message
+17:59:12,080 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:12,080 DEBUG SimpleSocketClient:? - client receive: message
+17:59:12,091 DEBUG SimpleSocketServer:? - server receive(64): message
+17:59:12,091 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:12,092 DEBUG SimpleSocketClient:? - client receive: message
+17:59:12,103 DEBUG SimpleSocketServer:? - server receive(65): message
+17:59:12,104 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:12,104 DEBUG SimpleSocketClient:? - client receive: message
+17:59:12,115 DEBUG SimpleSocketServer:? - server receive(66): message
+17:59:12,115 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:12,116 DEBUG SimpleSocketClient:? - client receive: message
+17:59:12,126 DEBUG SimpleSocketServer:? - server receive(67): message
+17:59:12,127 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:12,127 DEBUG SimpleSocketClient:? - client receive: message
+17:59:12,138 DEBUG SimpleSocketServer:? - server receive(68): message
+17:59:12,138 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:12,138 DEBUG SimpleSocketClient:? - client receive: message
+17:59:12,149 DEBUG SimpleSocketServer:? - server receive(69): message
+17:59:12,149 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:12,149 DEBUG SimpleSocketClient:? - client receive: message
+17:59:12,160 DEBUG SimpleSocketServer:? - server receive(70): message
+17:59:12,160 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:12,161 DEBUG SimpleSocketClient:? - client receive: message
+17:59:12,172 DEBUG SimpleSocketServer:? - server receive(71): message
+17:59:12,173 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:12,173 DEBUG SimpleSocketClient:? - client receive: message
+17:59:12,185 DEBUG SimpleSocketServer:? - server receive(72): message
+17:59:12,185 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:12,185 DEBUG SimpleSocketClient:? - client receive: message
+17:59:12,196 DEBUG SimpleSocketServer:? - server receive(73): message
+17:59:12,197 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:12,197 DEBUG SimpleSocketClient:? - client receive: message
+17:59:12,208 DEBUG SimpleSocketServer:? - server receive(74): message
+17:59:12,208 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:12,209 DEBUG SimpleSocketClient:? - client receive: message
+17:59:12,219 DEBUG SimpleSocketServer:? - server receive(75): message
+17:59:12,220 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:12,220 DEBUG SimpleSocketClient:? - client receive: message
+17:59:12,231 DEBUG SimpleSocketServer:? - server receive(76): message
+17:59:12,232 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:12,232 DEBUG SimpleSocketClient:? - client receive: message
+17:59:12,244 DEBUG SimpleSocketServer:? - server receive(77): message
+17:59:12,244 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:12,245 DEBUG SimpleSocketClient:? - client receive: message
+17:59:12,256 DEBUG SimpleSocketServer:? - server receive(78): message
+17:59:12,256 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:12,256 DEBUG SimpleSocketClient:? - client receive: message
+17:59:12,267 DEBUG SimpleSocketServer:? - server receive(79): message
+17:59:12,267 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:12,268 DEBUG SimpleSocketClient:? - client receive: message
+17:59:12,279 DEBUG SimpleSocketServer:? - server receive(80): message
+17:59:12,279 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:12,280 DEBUG SimpleSocketClient:? - client receive: message
+17:59:12,291 DEBUG SimpleSocketServer:? - server receive(81): message
+17:59:12,291 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:12,292 DEBUG SimpleSocketClient:? - client receive: message
+17:59:12,303 DEBUG SimpleSocketServer:? - server receive(82): message
+17:59:12,303 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:12,304 DEBUG SimpleSocketClient:? - client receive: message
+17:59:12,315 DEBUG SimpleSocketServer:? - server receive(83): message
+17:59:12,315 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:12,316 DEBUG SimpleSocketClient:? - client receive: message
+17:59:12,327 DEBUG SimpleSocketServer:? - server receive(84): message
+17:59:12,327 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:12,327 DEBUG SimpleSocketClient:? - client receive: message
+17:59:12,338 DEBUG SimpleSocketServer:? - server receive(85): message
+17:59:12,338 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:12,338 DEBUG SimpleSocketClient:? - client receive: message
+17:59:12,349 DEBUG SimpleSocketServer:? - server receive(86): message
+17:59:12,350 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:12,350 DEBUG SimpleSocketClient:? - client receive: message
+17:59:12,361 DEBUG SimpleSocketServer:? - server receive(87): message
+17:59:12,362 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:12,362 DEBUG SimpleSocketClient:? - client receive: message
+17:59:12,373 DEBUG SimpleSocketServer:? - server receive(88): message
+17:59:12,374 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:12,374 DEBUG SimpleSocketClient:? - client receive: message
+17:59:12,385 DEBUG SimpleSocketServer:? - server receive(89): message
+17:59:12,385 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:12,386 DEBUG SimpleSocketClient:? - client receive: message
+17:59:12,396 DEBUG SimpleSocketServer:? - server receive(90): message
+17:59:12,396 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:12,397 DEBUG SimpleSocketClient:? - client receive: message
+17:59:12,407 DEBUG SimpleSocketServer:? - server receive(91): message
+17:59:12,408 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:12,408 DEBUG SimpleSocketClient:? - client receive: message
+17:59:12,419 DEBUG SimpleSocketServer:? - server receive(92): message
+17:59:12,420 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:12,420 DEBUG SimpleSocketClient:? - client receive: message
+17:59:12,431 DEBUG SimpleSocketServer:? - server receive(93): message
+17:59:12,431 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:12,432 DEBUG SimpleSocketClient:? - client receive: message
+17:59:12,443 DEBUG SimpleSocketServer:? - server receive(94): message
+17:59:12,443 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:12,444 DEBUG SimpleSocketClient:? - client receive: message
+17:59:12,455 DEBUG SimpleSocketServer:? - server receive(95): message
+17:59:12,455 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:12,455 DEBUG SimpleSocketClient:? - client receive: message
+17:59:12,466 DEBUG SimpleSocketServer:? - server receive(96): message
+17:59:12,466 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:12,466 DEBUG SimpleSocketClient:? - client receive: message
+17:59:12,477 DEBUG SimpleSocketServer:? - server receive(97): message
+17:59:12,477 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:12,478 DEBUG SimpleSocketClient:? - client receive: message
+17:59:12,489 DEBUG SimpleSocketServer:? - server receive(98): message
+17:59:12,489 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:12,490 DEBUG SimpleSocketClient:? - client receive: message
+17:59:12,501 DEBUG SimpleSocketServer:? - server receive(99): message
+17:59:12,501 DEBUG SimpleSocketServer:? - No action defined. data='message'
+17:59:12,502 DEBUG SimpleSocketClient:? - client receive: message
+17:59:12,514 DEBUG SimpleSocketServer:? - server receive exception: Socket closed
+17:59:12,669 DEBUG HTTPBuilder:449 - GET http://localhost:6600/mpushapi/smssubmit
+17:59:12,762 DEBUG SingleClientConnManager:195 - Get connection for route HttpRoute[{}->http://localhost:6600]
+17:59:12,779 DEBUG RequestAddCookies:131 - CookieSpec selected: best-match
+17:59:12,787 DEBUG DefaultHttpClient:481 - Attempt 1 to execute request
+17:59:12,788 DEBUG DefaultClientConnection:250 - Sending request: GET /mpushapi/smssubmit HTTP/1.1
+17:59:12,788 DEBUG wire:78 - >> "GET /mpushapi/smssubmit HTTP/1.1[EOL]"
+17:59:12,789 DEBUG wire:78 - >> "Accept: text/html[EOL]"
+17:59:12,789 DEBUG wire:78 - >> "Host: localhost:6600[EOL]"
+17:59:12,789 DEBUG wire:78 - >> "Connection: Keep-Alive[EOL]"
+17:59:12,789 DEBUG wire:78 - >> "Accept-Encoding: gzip,deflate[EOL]"
+17:59:12,790 DEBUG wire:78 - >> "[EOL]"
+17:59:12,790 DEBUG headers:254 - >> GET /mpushapi/smssubmit HTTP/1.1
+17:59:12,790 DEBUG headers:257 - >> Accept: text/html
+17:59:12,790 DEBUG headers:257 - >> Host: localhost:6600
+17:59:12,790 DEBUG headers:257 - >> Connection: Keep-Alive
+17:59:12,791 DEBUG headers:257 - >> Accept-Encoding: gzip,deflate
+17:59:13,228 DEBUG wire:78 - << "HTTP/1.1 200 OK[EOL]"
+17:59:13,230 DEBUG wire:78 - << "Content-Type: text/xml; charset=utf-8[EOL]"
+17:59:13,230 DEBUG wire:78 - << "Content-Length: 185[EOL]"
+17:59:13,231 DEBUG wire:78 - << "Server: Jetty(6.1.25)[EOL]"
+17:59:13,231 DEBUG wire:78 - << "[EOL]"
+17:59:13,232 DEBUG DefaultClientConnection:235 - Receiving response: HTTP/1.1 200 OK
+17:59:13,232 DEBUG headers:238 - << HTTP/1.1 200 OK
+17:59:13,232 DEBUG headers:241 - << Content-Type: text/xml; charset=utf-8
+17:59:13,232 DEBUG headers:241 - << Content-Length: 185
+17:59:13,232 DEBUG headers:241 - << Server: Jetty(6.1.25)
+17:59:13,235 DEBUG DefaultHttpClient:540 - Connection can be kept alive indefinitely
+17:59:13,236 DEBUG HTTPBuilder:466 - Response code: 200; found handler: SimpleSpec$_spock_feature_0_0_closure1_closure2@71a2f5b1
+17:59:13,236 DEBUG HTTPBuilder:544 - Parsing response as: text/html
+17:59:13,262 DEBUG wire:64 - << "<?xml version="1.0" encoding="UTF-8"?>[\n]"
+17:59:13,262 DEBUG wire:64 - << "<SubmitRes>[\n]"
+17:59:13,262 DEBUG wire:64 - << "<MessageId>A13D98F</MessageId>[\n]"
+17:59:13,262 DEBUG wire:64 - << "<ResultCode>00000</ResultCode>[\n]"
+17:59:13,263 DEBUG wire:64 - << "<ResultText>Message accepted for processing.</ResultText>[\n]"
+17:59:13,263 DEBUG wire:64 - << "</SubmitRes>[\n]"
+17:59:13,263 DEBUG wire:64 - << "[\n]"
+17:59:13,267 DEBUG SingleClientConnManager:250 - Releasing connection org.apache.http.impl.conn.SingleClientConnManager$ConnAdapter@4604a96a
+17:59:13,274 DEBUG HTTPBuilder:547 - Parsed data to instance of: class groovy.util.slurpersupport.NodeChild
+17:59:13,311  INFO SimpleSMS:? - 訊息已轉換為 XML 格式: <?xml version="1.0" encoding="UTF-8" ?>
+<SmsSubmitReq>
+  <SysId>X0KYAODA</SysId>
+  <SrcAddress>01916800020100500000</SrcAddress>
+  <DestAddress>886000000000</DestAddress>
+  <SmsBody>SGkuIFRlc3QgTWVzc2FnZS4=</SmsBody>
+  <DrFlag>true</DrFlag>
+</SmsSubmitReq>
+17:59:13,314 DEBUG HTTPBuilder:449 - POST http://localhost:6600/mpushapi/smssubmit
+17:59:13,315 DEBUG SingleClientConnManager:195 - Get connection for route HttpRoute[{}->http://localhost:6600]
+17:59:13,316 DEBUG RequestAddCookies:131 - CookieSpec selected: best-match
+17:59:13,317 DEBUG DefaultHttpClient:481 - Attempt 1 to execute request
+17:59:13,317 DEBUG DefaultClientConnection:250 - Sending request: POST /mpushapi/smssubmit HTTP/1.1
+17:59:13,317 DEBUG wire:78 - >> "POST /mpushapi/smssubmit HTTP/1.1[EOL]"
+17:59:13,317 DEBUG wire:78 - >> "Accept: application/xml, text/xml, application/xhtml+xml[EOL]"
+17:59:13,318 DEBUG wire:78 - >> "Content-Length: 262[EOL]"
+17:59:13,318 DEBUG wire:78 - >> "Content-Type: application/xml[EOL]"
+17:59:13,318 DEBUG wire:78 - >> "Host: localhost:6600[EOL]"
+17:59:13,318 DEBUG wire:78 - >> "Connection: Keep-Alive[EOL]"
+17:59:13,319 DEBUG wire:78 - >> "Accept-Encoding: gzip,deflate[EOL]"
+17:59:13,319 DEBUG wire:78 - >> "[EOL]"
+17:59:13,319 DEBUG headers:254 - >> POST /mpushapi/smssubmit HTTP/1.1
+17:59:13,319 DEBUG headers:257 - >> Accept: application/xml, text/xml, application/xhtml+xml
+17:59:13,319 DEBUG headers:257 - >> Content-Length: 262
+17:59:13,320 DEBUG headers:257 - >> Content-Type: application/xml
+17:59:13,320 DEBUG headers:257 - >> Host: localhost:6600
+17:59:13,320 DEBUG headers:257 - >> Connection: Keep-Alive
+17:59:13,320 DEBUG headers:257 - >> Accept-Encoding: gzip,deflate
+17:59:13,321 DEBUG wire:64 - >> "{xml=<?xml version="1.0" encoding="UTF-8" ?>[\n]"
+17:59:13,321 DEBUG wire:64 - >> "<SmsSubmitReq>[\n]"
+17:59:13,321 DEBUG wire:64 - >> "  <SysId>X0KYAODA</SysId>[\n]"
+17:59:13,322 DEBUG wire:64 - >> "  <SrcAddress>01916800020100500000</SrcAddress>[\n]"
+17:59:13,322 DEBUG wire:64 - >> "  <DestAddress>886000000000</DestAddress>[\n]"
+17:59:13,322 DEBUG wire:64 - >> "  <SmsBody>SGkuIFRlc3QgTWVzc2FnZS4=</SmsBody>[\n]"
+17:59:13,322 DEBUG wire:64 - >> "  <DrFlag>true</DrFlag>[\n]"
+17:59:13,322 DEBUG wire:78 - >> "</SmsSubmitReq>}"
+17:59:13,324 DEBUG wire:78 - << "HTTP/1.1 200 OK[EOL]"
+17:59:13,324 DEBUG wire:78 - << "Content-Type: text/xml; charset=utf-8[EOL]"
+17:59:13,324 DEBUG wire:78 - << "Content-Length: 185[EOL]"
+17:59:13,325 DEBUG wire:78 - << "Server: Jetty(6.1.25)[EOL]"
+17:59:13,325 DEBUG wire:78 - << "[EOL]"
+17:59:13,325 DEBUG DefaultClientConnection:235 - Receiving response: HTTP/1.1 200 OK
+17:59:13,325 DEBUG headers:238 - << HTTP/1.1 200 OK
+17:59:13,326 DEBUG headers:241 - << Content-Type: text/xml; charset=utf-8
+17:59:13,326 DEBUG headers:241 - << Content-Length: 185
+17:59:13,326 DEBUG headers:241 - << Server: Jetty(6.1.25)
+17:59:13,326 DEBUG DefaultHttpClient:540 - Connection can be kept alive indefinitely
+17:59:13,326 DEBUG HTTPBuilder:466 - Response code: 200; found handler: com.lyhdev.mpush.SimpleSMS$_submit_closure1_closure3@2778c490
+17:59:13,327 DEBUG HTTPBuilder:544 - Parsing response as: application/xml
+17:59:13,329 DEBUG wire:64 - << "<?xml version="1.0" encoding="UTF-8"?>[\n]"
+17:59:13,329 DEBUG wire:64 - << "<SubmitRes>[\n]"
+17:59:13,329 DEBUG wire:64 - << "<MessageId>A13D98F</MessageId>[\n]"
+17:59:13,329 DEBUG wire:64 - << "<ResultCode>00000</ResultCode>[\n]"
+17:59:13,330 DEBUG wire:64 - << "<ResultText>Message accepted for processing.</ResultText>[\n]"
+17:59:13,330 DEBUG wire:64 - << "</SubmitRes>[\n]"
+17:59:13,330 DEBUG wire:64 - << "[\n]"
+17:59:13,331 DEBUG SingleClientConnManager:250 - Releasing connection org.apache.http.impl.conn.SingleClientConnManager$ConnAdapter@4ef18d37
+17:59:13,331 DEBUG HTTPBuilder:547 - Parsed data to instance of: class groovy.util.slurpersupport.NodeChild
+17:59:13,337  INFO SimpleSMS:? - 訊息傳送結果: [MessageId:A13D98F, ResultCode:00000, ResultText:Message accepted for processing.]
+18:05:23,045  INFO SimpleAdmin:? - 手動送出 SMS 訊息 '886937397377'
+18:11:12,741 DEBUG SimpleSocketServer:? - server receive(0): message
+18:11:12,744 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:12,745 DEBUG SimpleSocketClient:? - client receive: message
+18:11:12,755 DEBUG SimpleSocketServer:? - server receive exception: Socket closed
+18:11:12,776 DEBUG SimpleSocketServer:? - server receive(0): message
+18:11:12,777 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:12,779 DEBUG SimpleSocketClient:? - client receive: message
+18:11:12,797 DEBUG SimpleSocketServer:? - server receive(1): message
+18:11:12,797 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:12,799 DEBUG SimpleSocketClient:? - client receive: message
+18:11:12,809 DEBUG SimpleSocketServer:? - server receive(2): message
+18:11:12,810 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:12,811 DEBUG SimpleSocketClient:? - client receive: message
+18:11:12,821 DEBUG SimpleSocketServer:? - server receive(3): message
+18:11:12,822 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:12,823 DEBUG SimpleSocketClient:? - client receive: message
+18:11:12,835 DEBUG SimpleSocketServer:? - server receive(4): message
+18:11:12,836 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:12,837 DEBUG SimpleSocketClient:? - client receive: message
+18:11:12,848 DEBUG SimpleSocketServer:? - server receive(5): message
+18:11:12,848 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:12,849 DEBUG SimpleSocketClient:? - client receive: message
+18:11:12,860 DEBUG SimpleSocketServer:? - server receive(6): message
+18:11:12,861 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:12,862 DEBUG SimpleSocketClient:? - client receive: message
+18:11:12,873 DEBUG SimpleSocketServer:? - server receive(7): message
+18:11:12,873 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:12,873 DEBUG SimpleSocketClient:? - client receive: message
+18:11:12,884 DEBUG SimpleSocketServer:? - server receive(8): message
+18:11:12,884 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:12,885 DEBUG SimpleSocketClient:? - client receive: message
+18:11:12,895 DEBUG SimpleSocketServer:? - server receive(9): message
+18:11:12,896 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:12,896 DEBUG SimpleSocketClient:? - client receive: message
+18:11:12,907 DEBUG SimpleSocketServer:? - server receive(10): message
+18:11:12,907 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:12,908 DEBUG SimpleSocketClient:? - client receive: message
+18:11:12,919 DEBUG SimpleSocketServer:? - server receive(11): message
+18:11:12,919 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:12,920 DEBUG SimpleSocketClient:? - client receive: message
+18:11:12,932 DEBUG SimpleSocketServer:? - server receive(12): message
+18:11:12,932 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:12,932 DEBUG SimpleSocketClient:? - client receive: message
+18:11:12,943 DEBUG SimpleSocketServer:? - server receive(13): message
+18:11:12,944 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:12,944 DEBUG SimpleSocketClient:? - client receive: message
+18:11:12,956 DEBUG SimpleSocketServer:? - server receive(14): message
+18:11:12,957 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:12,958 DEBUG SimpleSocketClient:? - client receive: message
+18:11:12,970 DEBUG SimpleSocketServer:? - server receive(15): message
+18:11:12,970 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:12,971 DEBUG SimpleSocketClient:? - client receive: message
+18:11:12,982 DEBUG SimpleSocketServer:? - server receive(16): message
+18:11:12,983 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:12,983 DEBUG SimpleSocketClient:? - client receive: message
+18:11:12,995 DEBUG SimpleSocketServer:? - server receive(17): message
+18:11:12,995 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:12,996 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,007 DEBUG SimpleSocketServer:? - server receive(18): message
+18:11:13,007 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,007 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,018 DEBUG SimpleSocketServer:? - server receive(19): message
+18:11:13,018 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,019 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,029 DEBUG SimpleSocketServer:? - server receive(20): message
+18:11:13,030 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,030 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,041 DEBUG SimpleSocketServer:? - server receive(21): message
+18:11:13,042 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,042 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,053 DEBUG SimpleSocketServer:? - server receive(22): message
+18:11:13,054 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,054 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,065 DEBUG SimpleSocketServer:? - server receive(23): message
+18:11:13,066 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,067 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,078 DEBUG SimpleSocketServer:? - server receive(24): message
+18:11:13,078 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,079 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,089 DEBUG SimpleSocketServer:? - server receive(25): message
+18:11:13,090 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,090 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,101 DEBUG SimpleSocketServer:? - server receive(26): message
+18:11:13,101 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,101 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,112 DEBUG SimpleSocketServer:? - server receive(27): message
+18:11:13,112 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,113 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,124 DEBUG SimpleSocketServer:? - server receive(28): message
+18:11:13,124 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,125 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,137 DEBUG SimpleSocketServer:? - server receive(29): message
+18:11:13,137 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,138 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,149 DEBUG SimpleSocketServer:? - server receive(30): message
+18:11:13,149 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,150 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,160 DEBUG SimpleSocketServer:? - server receive(31): message
+18:11:13,161 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,162 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,173 DEBUG SimpleSocketServer:? - server receive(32): message
+18:11:13,173 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,173 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,184 DEBUG SimpleSocketServer:? - server receive(33): message
+18:11:13,185 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,185 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,196 DEBUG SimpleSocketServer:? - server receive(34): message
+18:11:13,196 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,196 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,207 DEBUG SimpleSocketServer:? - server receive(35): message
+18:11:13,207 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,207 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,218 DEBUG SimpleSocketServer:? - server receive(36): message
+18:11:13,218 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,218 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,229 DEBUG SimpleSocketServer:? - server receive(37): message
+18:11:13,229 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,229 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,241 DEBUG SimpleSocketServer:? - server receive(38): message
+18:11:13,241 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,241 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,252 DEBUG SimpleSocketServer:? - server receive(39): message
+18:11:13,252 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,252 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,263 DEBUG SimpleSocketServer:? - server receive(40): message
+18:11:13,263 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,264 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,275 DEBUG SimpleSocketServer:? - server receive(41): message
+18:11:13,275 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,275 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,286 DEBUG SimpleSocketServer:? - server receive(42): message
+18:11:13,286 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,286 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,297 DEBUG SimpleSocketServer:? - server receive(43): message
+18:11:13,297 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,298 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,308 DEBUG SimpleSocketServer:? - server receive(44): message
+18:11:13,309 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,309 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,320 DEBUG SimpleSocketServer:? - server receive(45): message
+18:11:13,320 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,320 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,331 DEBUG SimpleSocketServer:? - server receive(46): message
+18:11:13,331 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,331 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,342 DEBUG SimpleSocketServer:? - server receive(47): message
+18:11:13,342 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,342 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,353 DEBUG SimpleSocketServer:? - server receive(48): message
+18:11:13,353 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,357 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,368 DEBUG SimpleSocketServer:? - server receive(49): message
+18:11:13,368 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,369 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,380 DEBUG SimpleSocketServer:? - server receive(50): message
+18:11:13,380 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,380 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,391 DEBUG SimpleSocketServer:? - server receive(51): message
+18:11:13,391 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,391 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,402 DEBUG SimpleSocketServer:? - server receive(52): message
+18:11:13,402 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,403 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,414 DEBUG SimpleSocketServer:? - server receive(53): message
+18:11:13,414 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,414 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,425 DEBUG SimpleSocketServer:? - server receive(54): message
+18:11:13,425 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,425 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,436 DEBUG SimpleSocketServer:? - server receive(55): message
+18:11:13,437 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,437 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,448 DEBUG SimpleSocketServer:? - server receive(56): message
+18:11:13,448 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,448 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,459 DEBUG SimpleSocketServer:? - server receive(57): message
+18:11:13,459 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,460 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,471 DEBUG SimpleSocketServer:? - server receive(58): message
+18:11:13,471 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,471 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,482 DEBUG SimpleSocketServer:? - server receive(59): message
+18:11:13,482 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,483 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,494 DEBUG SimpleSocketServer:? - server receive(60): message
+18:11:13,494 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,494 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,505 DEBUG SimpleSocketServer:? - server receive(61): message
+18:11:13,505 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,505 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,516 DEBUG SimpleSocketServer:? - server receive(62): message
+18:11:13,516 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,517 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,528 DEBUG SimpleSocketServer:? - server receive(63): message
+18:11:13,528 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,528 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,539 DEBUG SimpleSocketServer:? - server receive(64): message
+18:11:13,539 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,539 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,550 DEBUG SimpleSocketServer:? - server receive(65): message
+18:11:13,550 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,551 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,561 DEBUG SimpleSocketServer:? - server receive(66): message
+18:11:13,562 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,562 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,573 DEBUG SimpleSocketServer:? - server receive(67): message
+18:11:13,573 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,573 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,584 DEBUG SimpleSocketServer:? - server receive(68): message
+18:11:13,584 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,585 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,595 DEBUG SimpleSocketServer:? - server receive(69): message
+18:11:13,596 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,596 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,607 DEBUG SimpleSocketServer:? - server receive(70): message
+18:11:13,607 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,607 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,618 DEBUG SimpleSocketServer:? - server receive(71): message
+18:11:13,618 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,618 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,629 DEBUG SimpleSocketServer:? - server receive(72): message
+18:11:13,629 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,629 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,640 DEBUG SimpleSocketServer:? - server receive(73): message
+18:11:13,640 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,641 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,652 DEBUG SimpleSocketServer:? - server receive(74): message
+18:11:13,652 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,653 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,664 DEBUG SimpleSocketServer:? - server receive(75): message
+18:11:13,664 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,664 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,675 DEBUG SimpleSocketServer:? - server receive(76): message
+18:11:13,675 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,676 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,686 DEBUG SimpleSocketServer:? - server receive(77): message
+18:11:13,686 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,687 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,697 DEBUG SimpleSocketServer:? - server receive(78): message
+18:11:13,698 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,698 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,709 DEBUG SimpleSocketServer:? - server receive(79): message
+18:11:13,709 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,709 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,720 DEBUG SimpleSocketServer:? - server receive(80): message
+18:11:13,720 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,720 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,731 DEBUG SimpleSocketServer:? - server receive(81): message
+18:11:13,731 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,732 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,743 DEBUG SimpleSocketServer:? - server receive(82): message
+18:11:13,743 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,744 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,755 DEBUG SimpleSocketServer:? - server receive(83): message
+18:11:13,755 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,756 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,766 DEBUG SimpleSocketServer:? - server receive(84): message
+18:11:13,767 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,767 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,778 DEBUG SimpleSocketServer:? - server receive(85): message
+18:11:13,779 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,779 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,791 DEBUG SimpleSocketServer:? - server receive(86): message
+18:11:13,791 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,791 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,803 DEBUG SimpleSocketServer:? - server receive(87): message
+18:11:13,803 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,804 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,815 DEBUG SimpleSocketServer:? - server receive(88): message
+18:11:13,815 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,816 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,827 DEBUG SimpleSocketServer:? - server receive(89): message
+18:11:13,827 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,828 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,839 DEBUG SimpleSocketServer:? - server receive(90): message
+18:11:13,839 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,840 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,850 DEBUG SimpleSocketServer:? - server receive(91): message
+18:11:13,851 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,851 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,863 DEBUG SimpleSocketServer:? - server receive(92): message
+18:11:13,864 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,864 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,875 DEBUG SimpleSocketServer:? - server receive(93): message
+18:11:13,876 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,876 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,887 DEBUG SimpleSocketServer:? - server receive(94): message
+18:11:13,887 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,888 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,898 DEBUG SimpleSocketServer:? - server receive(95): message
+18:11:13,899 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,899 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,910 DEBUG SimpleSocketServer:? - server receive(96): message
+18:11:13,910 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,910 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,921 DEBUG SimpleSocketServer:? - server receive(97): message
+18:11:13,922 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,922 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,933 DEBUG SimpleSocketServer:? - server receive(98): message
+18:11:13,934 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,934 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,945 DEBUG SimpleSocketServer:? - server receive(99): message
+18:11:13,946 DEBUG SimpleSocketServer:? - No action defined. data='message'
+18:11:13,946 DEBUG SimpleSocketClient:? - client receive: message
+18:11:13,958 DEBUG SimpleSocketServer:? - server receive exception: Socket closed
+18:11:14,109 DEBUG HTTPBuilder:449 - GET http://localhost:6600/mpushapi/smssubmit
+18:11:14,213 DEBUG SingleClientConnManager:195 - Get connection for route HttpRoute[{}->http://localhost:6600]
+18:11:14,230 DEBUG RequestAddCookies:131 - CookieSpec selected: best-match
+18:11:14,239 DEBUG DefaultHttpClient:481 - Attempt 1 to execute request
+18:11:14,239 DEBUG DefaultClientConnection:250 - Sending request: GET /mpushapi/smssubmit HTTP/1.1
+18:11:14,240 DEBUG wire:78 - >> "GET /mpushapi/smssubmit HTTP/1.1[EOL]"
+18:11:14,241 DEBUG wire:78 - >> "Accept: text/html[EOL]"
+18:11:14,241 DEBUG wire:78 - >> "Host: localhost:6600[EOL]"
+18:11:14,242 DEBUG wire:78 - >> "Connection: Keep-Alive[EOL]"
+18:11:14,242 DEBUG wire:78 - >> "Accept-Encoding: gzip,deflate[EOL]"
+18:11:14,242 DEBUG wire:78 - >> "[EOL]"
+18:11:14,242 DEBUG headers:254 - >> GET /mpushapi/smssubmit HTTP/1.1
+18:11:14,242 DEBUG headers:257 - >> Accept: text/html
+18:11:14,243 DEBUG headers:257 - >> Host: localhost:6600
+18:11:14,243 DEBUG headers:257 - >> Connection: Keep-Alive
+18:11:14,243 DEBUG headers:257 - >> Accept-Encoding: gzip,deflate
+18:11:14,705 DEBUG wire:78 - << "HTTP/1.1 200 OK[EOL]"
+18:11:14,707 DEBUG wire:78 - << "Content-Type: text/xml; charset=utf-8[EOL]"
+18:11:14,707 DEBUG wire:78 - << "Content-Length: 185[EOL]"
+18:11:14,707 DEBUG wire:78 - << "Server: Jetty(6.1.25)[EOL]"
+18:11:14,707 DEBUG wire:78 - << "[EOL]"
+18:11:14,708 DEBUG DefaultClientConnection:235 - Receiving response: HTTP/1.1 200 OK
+18:11:14,708 DEBUG headers:238 - << HTTP/1.1 200 OK
+18:11:14,708 DEBUG headers:241 - << Content-Type: text/xml; charset=utf-8
+18:11:14,709 DEBUG headers:241 - << Content-Length: 185
+18:11:14,709 DEBUG headers:241 - << Server: Jetty(6.1.25)
+18:11:14,711 DEBUG DefaultHttpClient:540 - Connection can be kept alive indefinitely
+18:11:14,713 DEBUG HTTPBuilder:466 - Response code: 200; found handler: SimpleSpec$_spock_feature_0_0_closure1_closure2@4c842d9a
+18:11:14,713 DEBUG HTTPBuilder:544 - Parsing response as: text/html
+18:11:14,739 DEBUG wire:64 - << "<?xml version="1.0" encoding="UTF-8"?>[\n]"
+18:11:14,740 DEBUG wire:64 - << "<SubmitRes>[\n]"
+18:11:14,740 DEBUG wire:64 - << "<MessageId>A13D98F</MessageId>[\n]"
+18:11:14,740 DEBUG wire:64 - << "<ResultCode>00000</ResultCode>[\n]"
+18:11:14,740 DEBUG wire:64 - << "<ResultText>Message accepted for processing.</ResultText>[\n]"
+18:11:14,740 DEBUG wire:64 - << "</SubmitRes>[\n]"
+18:11:14,741 DEBUG wire:64 - << "[\n]"
+18:11:14,745 DEBUG SingleClientConnManager:250 - Releasing connection org.apache.http.impl.conn.SingleClientConnManager$ConnAdapter@20c3e967
+18:11:14,753 DEBUG HTTPBuilder:547 - Parsed data to instance of: class groovy.util.slurpersupport.NodeChild
+18:11:14,792  INFO SimpleSMS:? - 訊息已轉換為 XML 格式: <?xml version="1.0" encoding="UTF-8" ?>
+<SmsSubmitReq>
+  <SysId>X0KYAODA</SysId>
+  <SrcAddress>01916800020100500000</SrcAddress>
+  <DestAddress>886000000000</DestAddress>
+  <SmsBody>SGkuIFRlc3QgTWVzc2FnZS4=</SmsBody>
+  <DrFlag>true</DrFlag>
+</SmsSubmitReq>
+18:11:14,796 DEBUG HTTPBuilder:449 - POST http://localhost:6600/mpushapi/smssubmit
+18:11:14,797 DEBUG SingleClientConnManager:195 - Get connection for route HttpRoute[{}->http://localhost:6600]
+18:11:14,798 DEBUG RequestAddCookies:131 - CookieSpec selected: best-match
+18:11:14,798 DEBUG DefaultHttpClient:481 - Attempt 1 to execute request
+18:11:14,799 DEBUG DefaultClientConnection:250 - Sending request: POST /mpushapi/smssubmit HTTP/1.1
+18:11:14,799 DEBUG wire:78 - >> "POST /mpushapi/smssubmit HTTP/1.1[EOL]"
+18:11:14,799 DEBUG wire:78 - >> "Accept: application/xml, text/xml, application/xhtml+xml[EOL]"
+18:11:14,799 DEBUG wire:78 - >> "Content-Length: 262[EOL]"
+18:11:14,800 DEBUG wire:78 - >> "Content-Type: application/xml[EOL]"
+18:11:14,800 DEBUG wire:78 - >> "Host: localhost:6600[EOL]"
+18:11:14,800 DEBUG wire:78 - >> "Connection: Keep-Alive[EOL]"
+18:11:14,800 DEBUG wire:78 - >> "Accept-Encoding: gzip,deflate[EOL]"
+18:11:14,801 DEBUG wire:78 - >> "[EOL]"
+18:11:14,801 DEBUG headers:254 - >> POST /mpushapi/smssubmit HTTP/1.1
+18:11:14,801 DEBUG headers:257 - >> Accept: application/xml, text/xml, application/xhtml+xml
+18:11:14,801 DEBUG headers:257 - >> Content-Length: 262
+18:11:14,801 DEBUG headers:257 - >> Content-Type: application/xml
+18:11:14,802 DEBUG headers:257 - >> Host: localhost:6600
+18:11:14,802 DEBUG headers:257 - >> Connection: Keep-Alive
+18:11:14,802 DEBUG headers:257 - >> Accept-Encoding: gzip,deflate
+18:11:14,803 DEBUG wire:64 - >> "{xml=<?xml version="1.0" encoding="UTF-8" ?>[\n]"
+18:11:14,805 DEBUG wire:64 - >> "<SmsSubmitReq>[\n]"
+18:11:14,805 DEBUG wire:64 - >> "  <SysId>X0KYAODA</SysId>[\n]"
+18:11:14,805 DEBUG wire:64 - >> "  <SrcAddress>01916800020100500000</SrcAddress>[\n]"
+18:11:14,806 DEBUG wire:64 - >> "  <DestAddress>886000000000</DestAddress>[\n]"
+18:11:14,806 DEBUG wire:64 - >> "  <SmsBody>SGkuIFRlc3QgTWVzc2FnZS4=</SmsBody>[\n]"
+18:11:14,806 DEBUG wire:64 - >> "  <DrFlag>true</DrFlag>[\n]"
+18:11:14,807 DEBUG wire:78 - >> "</SmsSubmitReq>}"
+18:11:14,807 DEBUG wire:78 - << "HTTP/1.1 200 OK[EOL]"
+18:11:14,807 DEBUG wire:78 - << "Content-Type: text/xml; charset=utf-8[EOL]"
+18:11:14,807 DEBUG wire:78 - << "Content-Length: 185[EOL]"
+18:11:14,808 DEBUG wire:78 - << "Server: Jetty(6.1.25)[EOL]"
+18:11:14,808 DEBUG wire:78 - << "[EOL]"
+18:11:14,808 DEBUG DefaultClientConnection:235 - Receiving response: HTTP/1.1 200 OK
+18:11:14,808 DEBUG headers:238 - << HTTP/1.1 200 OK
+18:11:14,809 DEBUG headers:241 - << Content-Type: text/xml; charset=utf-8
+18:11:14,809 DEBUG headers:241 - << Content-Length: 185
+18:11:14,809 DEBUG headers:241 - << Server: Jetty(6.1.25)
+18:11:14,809 DEBUG DefaultHttpClient:540 - Connection can be kept alive indefinitely
+18:11:14,809 DEBUG HTTPBuilder:466 - Response code: 200; found handler: com.lyhdev.mpush.SimpleSMS$_submit_closure1_closure3@546e3e5e
+18:11:14,810 DEBUG HTTPBuilder:544 - Parsing response as: application/xml
+18:11:14,812 DEBUG wire:64 - << "<?xml version="1.0" encoding="UTF-8"?>[\n]"
+18:11:14,812 DEBUG wire:64 - << "<SubmitRes>[\n]"
+18:11:14,812 DEBUG wire:64 - << "<MessageId>A13D98F</MessageId>[\n]"
+18:11:14,813 DEBUG wire:64 - << "<ResultCode>00000</ResultCode>[\n]"
+18:11:14,813 DEBUG wire:64 - << "<ResultText>Message accepted for processing.</ResultText>[\n]"
+18:11:14,813 DEBUG wire:64 - << "</SubmitRes>[\n]"
+18:11:14,813 DEBUG wire:64 - << "[\n]"
+18:11:14,814 DEBUG SingleClientConnManager:250 - Releasing connection org.apache.http.impl.conn.SingleClientConnManager$ConnAdapter@10320399
+18:11:14,814 DEBUG HTTPBuilder:547 - Parsed data to instance of: class groovy.util.slurpersupport.NodeChild
+18:11:14,820  INFO SimpleSMS:? - 訊息傳送結果: [MessageId:A13D98F, ResultCode:00000, ResultText:Message accepted for processing.]
+18:15:23,150  INFO SimpleAdmin:? - 手動送出 SMS 訊息 '886900000000'
