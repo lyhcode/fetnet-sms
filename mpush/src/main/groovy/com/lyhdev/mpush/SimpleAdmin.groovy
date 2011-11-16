@@ -40,6 +40,7 @@ class SimpleAdmin {
 		//def sql = null
 		
 		def font1 = new Font('Dialog', Font.PLAIN, 12)
+		def font1 = new Font('Dialog', Font.PLAIN, 14)
 		
 		def swingbuilder = new SwingBuilder().edt {
 			frame_main = frame (
@@ -232,7 +233,7 @@ class SimpleAdmin {
 					}
 				}
 				panel (constraints:BL.SOUTH) {
-					button_start = button(text: '啟動服務', actionPerformed: {
+					button_start = button(font: font2, text: '啟動服務', actionPerformed: {
 						button_start.enabled = false
 						button_close.enabled = true
 						button_submit.enabled = true
@@ -262,7 +263,7 @@ class SimpleAdmin {
 						server.start()
 					})
 					
-					button_close = button (text: '停止服務', actionPerformed: {
+					button_close = button (font: font2, text: '停止服務', actionPerformed: {
 						button_start.enabled = true
 						button_close.enabled = false
 						button_submit.enabled = false
@@ -275,7 +276,7 @@ class SimpleAdmin {
 					})
 					button_close.enabled = false
 					
-					button (text: '關閉', actionPerformed: {
+					button (font: font2, text: '關閉', actionPerformed: {
 						frame_main.hide()
 						frame_main.dispose()
 					})
