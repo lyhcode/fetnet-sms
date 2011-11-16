@@ -58,8 +58,8 @@ class SimpleAdmin {
 				
 				lookAndFeel('system')
 				
-				scrollPane (constraints: BL.CENTER) {
-					panel () {
+				tabbedPane (constraints: BL.CENTER, tabLayoutPolicy: JTabbedPane.SCROLL_TAB_LAYOUT) {
+					panel (name: '簡訊服務設定') {
 						tableLayout () {
 							tr {
 								td {
@@ -90,6 +90,10 @@ class SimpleAdmin {
 									field_srcaddress = textField(columns: 25, text: '01916800020100500000')
 								}
 							}
+						}
+					}
+					panel (name: '資料庫設定') {
+						tableLayout () {
 							tr {
 								td {
 									label (text: '<html><font color=blue>資料庫設定</font></html>')
@@ -150,6 +154,10 @@ class SimpleAdmin {
 									label_dbtest = label(text: '')
 								}
 							}
+						}
+					}
+					panel (name: '訊息設定') {
+						tableLayout () {
 							tr {
 								td {
 									label (text: '<html><font color=blue>訊息設定</font></html>')
@@ -163,6 +171,10 @@ class SimpleAdmin {
 									field_message = textArea (columns: 25, rows: 10, text: '親愛的用戶您好')
 								}
 							}
+						}
+					}
+					panel (name: '手動控制') {
+						tableLayout () {
 							tr {
 								td {
 									label (text: '<html><font color=blue>手動控制</font></html>')
