@@ -47,6 +47,7 @@ class SimpleAdmin {
 				title: '簡訊服務管理',
 				size: [640, 480],
 				show: true,
+				pack: true,
 				// defaultCloseOperation: JFrame.EXIT_ON_CLOSE,
 				windowClosing: {
 					if (server != null) server.stop() 
