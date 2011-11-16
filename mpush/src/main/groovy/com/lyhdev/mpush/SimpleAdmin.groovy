@@ -67,7 +67,7 @@ class SimpleAdmin {
 												label (text: '伺服器位址')
 											}
 											td {
-												field_smsurl = textField(columns: 20, text: 'http://localhost:6600')
+												field_smsurl = textField(columns: 20, text: 'http://61.20.32.60:6600')
 											}
 										}
 										tr {
@@ -96,7 +96,7 @@ class SimpleAdmin {
 												label (text: '連線字串')
 											}
 											td {
-												field_dsn = textField(columns: 20, text: 'jdbc:hsqldb:mem:SHCAR')
+												field_dsn = textField(columns: 20, text: 'jdbc:jtds:sqlserver://HAADBP01/SHCAR')
 											}
 										}          
 										tr {
@@ -104,7 +104,7 @@ class SimpleAdmin {
 												label (text: '帳號')
 											}
 											td {
-												field_dbuser = textField(columns: 10, text: 'sa')
+												field_dbuser = textField(columns: 10, text: 'SHUSER')
 											}
 										}	
 										tr {
@@ -112,7 +112,7 @@ class SimpleAdmin {
 												label (text: '密碼')
 											}
 											td {
-												field_dbpwd = textField(columns: 10, text: '')
+												field_dbpwd = textField(columns: 10, text: 'SH123a')
 											}
 										}
 										tr {
@@ -120,7 +120,7 @@ class SimpleAdmin {
 												label (text: '驅動程式')
 											}
 											td {
-												field_dbdrv = textField(columns: 20, text: 'org.hsqldb.jdbcDriver')
+												field_dbdrv = textField(columns: 20, text: 'net.sourceforge.jtds.jdbc.Driver')
 											}
 										}
 										tr {
