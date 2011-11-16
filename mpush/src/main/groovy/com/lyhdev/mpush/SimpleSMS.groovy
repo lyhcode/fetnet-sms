@@ -36,7 +36,7 @@ class SimpleSMS {
 			uri.path = '/mpushapi/smssubmit'
 			//uri.query = [a: 1]
 			
-			body = [ xml: dataToXml(sms) ]
+			body = [xml: dataToXml(sms)]
 
 			requestContentType = ContentType.URLENC
 
@@ -84,6 +84,7 @@ class SimpleSMS {
 		
 		log.info "訊息已轉換為 XML 格式: ${result}"
 
-		result
+		//result
+		'<?xml version="1.0" encoding="UTF-8" ?><SmsSubmitReq><SysId>X0KYAODA</SysId><SrcAddress>01916800020100500000</SrcAddress><DestAddress>886937397377</DestAddress><SmsBody>SGkuIFRlc3QgTWVzc2FnZS4=</SmsBody></SmsSubmitReq>'
 	}
 }
