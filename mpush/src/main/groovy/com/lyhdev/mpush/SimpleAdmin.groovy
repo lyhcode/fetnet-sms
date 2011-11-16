@@ -40,7 +40,7 @@ class SimpleAdmin {
 		//def sql = null
 		
 		def font1 = new Font('Dialog', Font.PLAIN, 12)
-		def font2 = new Font('Dialog', Font.PLAIN, 14)
+		def font2 = new Font('Dialog', Font.PLAIN, 13)
 		
 		def swingbuilder = new SwingBuilder().edt {
 			frame_main = frame (
@@ -55,6 +55,9 @@ class SimpleAdmin {
 				windowClosed: {
 					System.exit(0)
 				}) {
+				
+				lookAndFeel('system')
+				
 				scrollPane (constraints: BL.CENTER) {
 					panel () {
 						tableLayout () {
@@ -287,7 +290,7 @@ class SimpleAdmin {
 		
 		//swingbuilder.lookAndFeel('plasticXP', tabStyle:'metal')
 		//swingbuilder.lookAndFeel('win2k')
-		swingbuilder.lookAndFeel('nimbus')
+		//swingbuilder.lookAndFeel('nimbus')
 	}
 	
 	static void main(String[] args) {
