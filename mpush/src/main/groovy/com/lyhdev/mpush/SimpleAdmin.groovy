@@ -203,7 +203,7 @@ class SimpleAdmin {
 															sysId: field_sysid.text,
 															srcAddress: field_srcaddress.text,
 														)
-														def result = sms.submit([field_phone.text], field_message)
+														def result = sms.submit([field_phone.text], field_message.text)
 
 														label_send.text = "${result}"
 																												
