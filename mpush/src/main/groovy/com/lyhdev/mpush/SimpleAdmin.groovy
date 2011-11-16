@@ -42,7 +42,7 @@ class SimpleAdmin {
 		def swingbuilder = new SwingBuilder().edt {
 			frame_main = frame (
 				title: '簡訊服務管理',
-				size: [720, 480],
+				size: [750, 480],
 				show: true,
 				// defaultCloseOperation: JFrame.EXIT_ON_CLOSE,
 				windowClosing: {
@@ -67,7 +67,7 @@ class SimpleAdmin {
 												label (text: '伺服器位址')
 											}
 											td {
-												field_smsurl = textField(columns: 20, text: 'http://61.20.32.60:6600')
+												field_smsurl = textField(columns: 25, text: 'http://61.20.32.60:6600')
 											}
 										}
 										tr {
@@ -75,7 +75,7 @@ class SimpleAdmin {
 												label (text: '系統代碼')
 											}
 											td {
-												field_sysid = textField(columns: 20, text: 'X0KYAODA')
+												field_sysid = textField(columns: 25, text: 'X0KYAODA')
 											}
 										}
 										tr {
@@ -83,7 +83,7 @@ class SimpleAdmin {
 												label (text: '來源號碼')
 											}
 											td {
-												field_srcaddress = textField(columns: 20, text: '01916800020100500000')
+												field_srcaddress = textField(columns: 25, text: '01916800020100500000')
 											}
 										}
 										tr {
@@ -96,7 +96,7 @@ class SimpleAdmin {
 												label (text: '連線字串')
 											}
 											td {
-												field_dsn = textField(columns: 20, text: 'jdbc:jtds:sqlserver://HAADBP01/SHCAR')
+												field_dsn = textField(columns: 25, text: 'jdbc:jtds:sqlserver://HAADBP01/SHCAR')
 											}
 										}          
 										tr {
@@ -187,7 +187,7 @@ class SimpleAdmin {
 												label (text: '行動電話號碼')
 											}
 											td {
-												field_phone = textField(columns: 10, text: '886900000000')
+												field_phone = textField(columns: 10, text: '8869')
 											}
 										}
 										tr {
@@ -229,7 +229,7 @@ class SimpleAdmin {
 										}
 										tr {
 											td {
-												field_message = textArea (columns: 25, rows: 12, text: 'test')
+												field_message = textArea (columns: 25, rows: 25, text: '親愛的用戶您好')
 											}
 										}
 									}
@@ -255,6 +255,14 @@ class SimpleAdmin {
 							def db = new SimpleDatabase(sql: sql)
 							
 							def list = db.getAlertList(AL_SNO)
+
+							//送出簡訊
+							def sms = new SimpleSMS(
+								url: field_smsurl.text,
+								sysId: field_sysid.text,
+								srcAddress: field_srcaddress.text,
+							)
+							def result = sms.submit([field_phone.text], field_message.text)
 							
 							sql.close()
 						})
@@ -282,7 +290,7 @@ class SimpleAdmin {
 			}
 		}
 		
-		swingbuilder.lookAndFeel('nimbus')
+		//swingbuilder.lookAndFeel('nimbus')
 	}
 	
 	static void main(String[] args) {
