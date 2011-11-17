@@ -34,7 +34,7 @@ class SimpleProcess {
 				def addrs = []
 				(index_s..index_e).each {
 					index_n ->
-					addrs << list[index_n]
+					addrs << list[index_n].S_MOBI
 				}
 
 				//送出訊息
