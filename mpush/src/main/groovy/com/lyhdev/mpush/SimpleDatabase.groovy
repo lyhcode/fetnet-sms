@@ -112,7 +112,7 @@ class SimpleDatabase {
 	 */
 	def saveResult(S_NO, BUYERID, S_R_F) {
 		sql.executeUpdate(UPDATE_SQL, [
-			getDateString(),
+			new Date().format('yyyy-MM-dd HH:mm:ss'),
 			S_R_F,
 			getDateString(),
 			S_NO,
