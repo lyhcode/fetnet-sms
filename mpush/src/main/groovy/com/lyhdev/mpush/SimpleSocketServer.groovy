@@ -50,9 +50,15 @@ class SimpleSocketServer {
 
 				def msg = new String(incoming.data, 0, incoming.length)
 
-				log.debug "server receive(${rcvCount++}): ${msg}"
+				log.info "伺服器已接收訊息(${rcvCount++}): ${msg}"
 				
-				action(msg)
+				try {
+					log.info "開始執行訊息處理程序"
+					action(msg)
+				}
+				catch (e) {
+					log.error "訊息處理程序異常終止: ${e.message}"
+				}
 
 				def outgoing = new DatagramPacket(
 					msg.bytes,
@@ -65,7 +71,7 @@ class SimpleSocketServer {
 				socket.send(outgoing)
 			}
 			catch (e) {
-				log.debug "server receive exception: ${e.message}"
+				log.debug "伺服器除錯訊息: ${e.message}"
 			}
 		}
 	}

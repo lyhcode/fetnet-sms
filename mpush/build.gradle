@@ -82,4 +82,12 @@ task integrationTest {
 	dependsOn << test
 }
 
+// Package Fat Jar
+jar {
+    from { configurations.runtime.collect { it.isDirectory() ? it : zipTree(it) } }
+	manifest {
+		attributes 'Implementation-Title': 'SimpleAdmin', 'Implementation-Version': version, 'Main-Class' : 'com.lyhdev.mpush.SimpleAdmin'
+	}
+}
+
 defaultTasks 'runSimple'

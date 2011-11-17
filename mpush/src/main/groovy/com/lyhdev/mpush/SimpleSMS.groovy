@@ -14,8 +14,8 @@ class SimpleSMS {
 	def url = 'http://localhost:6600'
 	def pathSubmit = '/mpushapi/smssubmit'
 
-	def sysId = 'X0KYAODA'
-	def srcAddress = '01916800020100500000'
+	def sysId = ''
+	def srcAddress = ''
 	def drFlag = true
 	
 	def http

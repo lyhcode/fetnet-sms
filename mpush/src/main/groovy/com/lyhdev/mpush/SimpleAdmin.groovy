@@ -350,20 +350,25 @@ class SimpleAdmin {
 							
 							log.info "正在處理 AL_SNO='${AL_SNO}'"
 							
+							//建立資料庫連線
 							def sql = Sql.newInstance(field_dsn.text, field_dbuser.text, field_dbpwd.text, field_dbdrv.text)
 							def db = new SimpleDatabase(sql: sql)
-							
-							def list = db.getAlertList(AL_SNO)
-
-							//送出簡訊
+						
+							//建立簡訊發送服務
 							def sms = new SimpleSMS(
 								url: field_smsurl.text,
 								pathSubmit: field_smspathsubmit.text,
 								sysId: field_sysid.text,
 								srcAddress: field_srcaddress.text
 							)
-							def result = sms.submit([field_phone.text], field_message.text)
 							
+							def message = field_message.text
+
+							def proc = new SimpleProcess()
+
+							proc.send(db, sms, AL_SNO, message)
+
+							//結束資料庫連線
 							sql.close()
 						})
 						server.start()
