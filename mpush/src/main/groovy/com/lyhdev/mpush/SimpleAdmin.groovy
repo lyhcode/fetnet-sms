@@ -3,7 +3,6 @@ package com.lyhdev.mpush
 import java.awt.*
 import javax.swing.*
 import groovy.swing.SwingBuilder
-import java.awt.BorderLayout as BL
 import groovy.sql.Sql
 import groovy.util.logging.*
 
@@ -12,6 +11,8 @@ import groovy.util.logging.*
  */
 @Log4j
 class SimpleAdmin {
+
+	def CONFIG_FILENAME = 'config.ini'
 
 	def show() {
 		def label_dbtest
@@ -24,11 +25,14 @@ class SimpleAdmin {
 		def button_close
 		def button_submit
 		def button_send
-		
+	
+		def field_portudp
+		def field_timeout
 		def field_AL_SNO
 		def field_message
 		def field_phone
 		def field_smsurl
+		def field_smspathsubmit
 		def field_sysid
 		def field_srcaddress
 		def field_dsn
@@ -38,10 +42,19 @@ class SimpleAdmin {
 		
 		def server = null
 		//def sql = null
-		
+	
+		// 預設字型設定（中文最佳化）
 		def font1 = new Font('Dialog', Font.PLAIN, 12)
 		def font2 = new Font('Dialog', Font.PLAIN, 13)
 		
+		// Mac OS X 系統選單設定
+		System.setProperty("apple.laf.useScreenMenuBar", "true")
+		//System.setProperty("com.apple.mrj.application.apple.menu.about.name", '簡訊服務管理')
+		System.setProperty('com.apple.mrj.application.apple.menu.about.name', 'SimpleAdmin')
+		System.setProperty('apple.awt.application.name', 'SimpleAdmin')
+
+		UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName())
+
 		def swingbuilder = new SwingBuilder().edt {
 			frame_main = frame (
 				title: '簡訊服務管理',
@@ -49,21 +62,86 @@ class SimpleAdmin {
 				size: [640, 480],
 				show: true,
 				pack: true,
-				// defaultCloseOperation: JFrame.EXIT_ON_CLOSE,
+				defaultCloseOperation: JFrame.EXIT_ON_CLOSE,
 				windowClosing: {
-					if (server != null) server.stop() 
+					if (server != null) server.stop()
+					//System.exit(0)
 				},
 				windowClosed: {
+					//if (server != null) server.stop()
 					System.exit(0)
 				}) {
 				
 				lookAndFeel('system')
+
+				//選單列
 				menuBar() {
-					menu(text: "File", mnemonic: 'F') {
-						menuItem(text: "Exit", mnemonic: 'X', actionPerformed: {dispose() })
+					menu (text: '功能表', mnemonic: 'F') {
+						menuItem (text: '儲存設定', mnemonic: 'S', actionPerformed: {
+							def conff = new File(CONFIG_FILENAME)
+							def confs = new ConfigSlurper()
+							def conf
+							if (conff.exists()) {
+								conf = confs.parse(conff.toURL())
+							}
+							else {
+								conf = confs.parse('')
+							}
+							conf.server.port.udp = field_portudp.text
+							conf.server.timeout = field_timeout.text
+							conf.mpush.url = field_smsurl.text
+							conf.mpush.path = field_smspathsubmit.text
+							conf.mpush.sysId = field_sysid.text
+							conf.mpush.srcAddress = field_srcaddress.text
+							conf.database.dsn = field_dsn.text
+							conf.database.user = field_dbuser.text
+							conf.database.password = field_dbpwd.text
+							conf.database.driver = field_dbdrv.text
+							conf.message.content = field_message.text
+							conff.withWriter('UTF-8', {
+								w->
+								conf.writeTo(w)
+							})
+						})
+						menuItem (text: '關閉', mnemonic: 'X', actionPerformed: {
+							dispose()
+						})
 					}
 				}
-				tabbedPane (constraints: BL.CENTER, tabLayoutPolicy: JTabbedPane.SCROLL_TAB_LAYOUT) {
+				tabbedPane (constraints: BorderLayout.CENTER, tabLayoutPolicy: JTabbedPane.SCROLL_TAB_LAYOUT) {
+					panel (name: '伺服器設定') {
+						tableLayout () {
+							tr {
+								td {
+									label (text: '<html><font color=blue>伺服器設定</font></html>')
+								}
+							}
+							tr {
+								td {
+									label (font: font1, text: '本地網路位址')
+								}
+								td {
+									label(text: InetAddress.localHost.hostAddress)
+								}
+							}
+							tr {
+								td {
+									label (font: font1, text: '連接埠（UDP）')
+								}
+								td {
+									field_portudp = textField(columns: 10, text: '3003')
+								}
+							}
+							tr {
+								td {
+									label (font: font1, text: '連線逾時（秒）')
+								}
+								td {
+									field_timeout = textField(columns: 10, text: '30')
+								}
+							}
+						}
+					}
 					panel (name: '簡訊服務設定') {
 						tableLayout () {
 							tr {
@@ -76,7 +154,15 @@ class SimpleAdmin {
 									label (font: font1, text: '伺服器位址')
 								}
 								td {
-									field_smsurl = textField(columns: 25, text: 'http://61.20.32.60:6600')
+									field_smsurl = textField(columns: 25, text: 'http://localhost:6600')
+								}
+							}
+							tr {
+								td {
+									label (font: font1, text: '服務路徑')
+								}
+								td {
+									field_smspathsubmit = textField(columns: 25, text: '/mpushapi/smssubmit')
 								}
 							}
 							tr {
@@ -84,7 +170,7 @@ class SimpleAdmin {
 									label (font: font1, text: '系統代碼')
 								}
 								td {
-									field_sysid = textField(columns: 25, text: 'X0KYAODA')
+									field_sysid = textField(columns: 25, text: '')
 								}
 							}
 							tr {
@@ -92,7 +178,7 @@ class SimpleAdmin {
 									label (font: font1, text: '來源號碼')
 								}
 								td {
-									field_srcaddress = textField(columns: 25, text: '01916800020100500000')
+									field_srcaddress = textField(columns: 25, text: '')
 								}
 							}
 						}
@@ -109,7 +195,7 @@ class SimpleAdmin {
 									label (font: font1, text: '連線字串')
 								}
 								td {
-									field_dsn = textField(columns: 25, text: 'jdbc:jtds:sqlserver://HAADBP01/SHCAR')
+									field_dsn = textField(columns: 25, text: 'jdbc:hsqldb:mem:SHCAR')
 								}
 							}          
 							tr {
@@ -117,7 +203,7 @@ class SimpleAdmin {
 									label (font: font1, text: '帳號')
 								}
 								td {
-									field_dbuser = textField(columns: 10, text: 'SHUSER')
+									field_dbuser = textField(columns: 10, text: 'sa')
 								}
 							}	
 							tr {
@@ -125,7 +211,7 @@ class SimpleAdmin {
 									label (font: font1, text: '密碼')
 								}
 								td {
-									field_dbpwd = passwordField(columns: 10, text: 'SH123a')
+									field_dbpwd = passwordField(columns: 10, text: '')
 								}
 							}
 							tr {
@@ -133,7 +219,7 @@ class SimpleAdmin {
 									label (font: font1, text: '驅動程式')
 								}
 								td {
-									field_dbdrv = textField(columns: 20, text: 'net.sourceforge.jtds.jdbc.Driver')
+									field_dbdrv = textField(columns: 20, text: 'org.hsqldb.jdbcDriver')
 								}
 							}
 							tr {
@@ -170,7 +256,7 @@ class SimpleAdmin {
 							}
 							tr {
 								td {
-									field_message = textArea (columns: 30, rows: 5, text: '親愛的用戶您好')
+									field_message = textArea (columns: 30, rows: 5, text: '')
 								}
 							}
 						}
@@ -232,8 +318,9 @@ class SimpleAdmin {
 										Thread.start {
 											def sms = new SimpleSMS(
 												url: field_smsurl.text,
+												pathSubmit: field_smspathsubmit.text,
 												sysId: field_sysid.text,
-												srcAddress: field_srcaddress.text,
+												srcAddress: field_srcaddress.text
 											)
 											def result = sms.submit([field_phone.text], field_message.text)
 
@@ -250,7 +337,7 @@ class SimpleAdmin {
 						}
 					}
 				}
-				panel (constraints:BL.SOUTH) {
+				panel (constraints: BorderLayout.SOUTH) {
 					button_start = button(font: font2, text: '啟動服務', actionPerformed: {
 						button_start.enabled = false
 						button_close.enabled = true
@@ -258,7 +345,7 @@ class SimpleAdmin {
 						
 						log.info "啟動服務"
 						
-						server = new SimpleSocketServer(action: {
+						server = new SimpleSocketServer(port: new Integer(field_portudp.text), soTimeout: new Integer(field_timeout.text) * 1000, action: {
 							AL_SNO ->
 							
 							log.info "正在處理 AL_SNO='${AL_SNO}'"
@@ -271,8 +358,9 @@ class SimpleAdmin {
 							//送出簡訊
 							def sms = new SimpleSMS(
 								url: field_smsurl.text,
+								pathSubmit: field_smspathsubmit.text,
 								sysId: field_sysid.text,
-								srcAddress: field_srcaddress.text,
+								srcAddress: field_srcaddress.text
 							)
 							def result = sms.submit([field_phone.text], field_message.text)
 							
@@ -302,6 +390,21 @@ class SimpleAdmin {
 			}
 		}
 		
+		def conff = new File(CONFIG_FILENAME)
+		if (conff.exists()) {
+			def conf = new ConfigSlurper().parse(conff.getText('UTF-8'))
+			field_portudp.text = conf.server.port.udp 
+			field_timeout.text = conf.server.timeout 
+			field_smsurl.text = conf.mpush.url 
+			field_smspathsubmit.text = conf.mpush.path 
+			field_sysid.text = conf.mpush.sysId 
+			field_srcaddress.text = conf.mpush.srcAddress 
+			field_dsn.text = conf.database.dsn 
+			field_dbuser.text = conf.database.user 
+			field_dbpwd.text = conf.database.password 
+			field_dbdrv.text = conf.database.driver 
+			field_message.text = conf.message.content 
+		}
 		//swingbuilder.lookAndFeel('plasticXP', tabStyle:'metal')
 		//swingbuilder.lookAndFeel('win2k')
 		//swingbuilder.lookAndFeel('nimbus')

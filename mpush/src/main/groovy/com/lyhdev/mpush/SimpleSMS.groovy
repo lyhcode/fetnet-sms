@@ -12,6 +12,7 @@ import static groovyx.net.http.Method.*
 @Log4j
 class SimpleSMS {
 	def url = 'http://localhost:6600'
+	def pathSubmit = '/mpushapi/smssubmit'
 
 	def sysId = 'X0KYAODA'
 	def srcAddress = '01916800020100500000'
@@ -33,7 +34,7 @@ class SimpleSMS {
 		def result = [:]
 
 		http.request( GET, XML ) {
-			uri.path = '/mpushapi/smssubmit'
+			uri.path = pathSubmit
 			uri.query = [xml: dataToXml(sms)]
 			//body = [xml: dataToXml(sms)]
 

@@ -65,6 +65,7 @@ task (runSimple, dependsOn: 'classes', type: JavaExec) {
 	classpath = sourceSets.main.runtimeClasspath
 	//main = 'com.lyhdev.mpush.SimpleSMS'
 	main = 'com.lyhdev.mpush.SimpleAdmin'
+	jvmArgs = ['-Xdock:name=SimpleAdmin']
 }
 
 task jettyDaemon {
