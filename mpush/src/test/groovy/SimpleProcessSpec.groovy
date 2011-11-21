@@ -25,7 +25,7 @@ class SimpleProcessSpec extends Specification {
 
 		then:
 
-		sql.firstRow("select * from PRE_AL_MSG where S_NO='123456' and BUYERID='c1'").S_DATE == db.dateString
+		sql.firstRow("select * from PRE_AL_MSG where S_NO='123456' and BUYERID='c1'").S_DATE?.startsWith(new Date().format('yyyy-MM-dd'))
 		sql.firstRow("select * from PRE_AL_MSG where S_NO='123456' and BUYERID='c1'").S_R_F == 'Y'
 
 		cleanup:

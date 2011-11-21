@@ -18,8 +18,6 @@ class SimpleSMS {
 	def srcAddress = ''
 	def drFlag = true
 	
-	def http
-	
 	def submit(destAddress, smsBody) {
 		submit([
 			DestAddress: destAddress,
@@ -28,25 +26,48 @@ class SimpleSMS {
 	}
 
 	def submit(sms) {
-		// http://61.20.32.60:6600
-	 	http = new HTTPBuilder( url )
+	 	
+		def xmlResult = httpRequestXml2(url, pathSubmit, dataToXml(sms))
+		
+		def result = [
+			MessageId: null,
+			ResultCode: null,
+			ResultText: null
+		]
+
+		if (xmlResult) {
+			result = [
+				MessageId: xmlResult.MessageId,
+				ResultCode: xmlResult.ResultCode,
+				ResultText: xmlResult.ResultText
+			]
+		}
+
+		log.info "訊息傳送結果: ${result}"
+
+		result
+	}
+
+	/**
+	 * httpRequestXml using HTTPBuilder
+	 */
+	def httpRequestXml(url, path, xml) {
+		def http = new HTTPBuilder(url)
 	 
-		def result = [:]
+		def result = null
 
 		http.request( GET, XML ) {
 			uri.path = pathSubmit
-			uri.query = [xml: dataToXml(sms)]
-			//body = [xml: dataToXml(sms)]
+			uri.query = [xml: xml]
+
+			// POST
+			//body = [xml: xml]
 
 			requestContentType = ContentType.URLENC
 
-			response.success = { resp, xml ->
+			response.success = { resp, xmlresp ->
 				//println resp.statusLine
-				result = [
-					MessageId: xml.MessageId,
-					ResultCode: xml.ResultCode,
-					ResultText: xml.ResultText
-				]
+				result = xmlresp
 			}
 
 			response.failure = { resp ->
@@ -54,7 +75,35 @@ class SimpleSMS {
 			}
 		}
 
-		log.info "訊息傳送結果: ${result}"
+		result
+	}
+
+	def httpRequestXml2(url, path, xml) {
+		def result = null
+		def encodeString = "xml=" + URLEncoder.encode(xml, 'UTF-8')
+		def urlobj = new URL("${url}${path}")
+		def conn = (HttpURLConnection) urlobj.openConnection()
+		conn.requestMethod = 'POST'
+		conn.doOutput = true
+		conn.setRequestProperty('Content-Type', 'application/x-www-form-urlencoded')
+		def outStream = conn.outputStream
+		outStream.write(encodeString.getBytes('UTF-8'))
+		conn.connect()
+		def responseCode = conn.responseCode
+		log.info "Response Code = ${responseCode}"
+		def reader = new BufferedReader(new InputStreamReader(conn.inputStream))
+		def writer = new StringWriter()
+		def line = null
+		while ((line = reader.readLine()) != null) {
+			writer.print line
+		}
+		try {
+			result = new XmlSlurper().parseText(writer.toString())
+		}
+		catch (e) {
+			log.error e.message
+		}
+		reader.close()
 
 		result
 	}

@@ -35,6 +35,7 @@ class SimpleAdmin {
 		def field_smspathsubmit
 		def field_sysid
 		def field_srcaddress
+		def field_smsmaxsize
 		def field_dsn
 		def field_dbuser
 		def field_dbpwd
@@ -93,6 +94,7 @@ class SimpleAdmin {
 							conf.mpush.path = field_smspathsubmit.text
 							conf.mpush.sysId = field_sysid.text
 							conf.mpush.srcAddress = field_srcaddress.text
+							conf.mpush.maxSize = field_smsmaxsize.text
 							conf.database.dsn = field_dsn.text
 							conf.database.user = field_dbuser.text
 							conf.database.password = field_dbpwd.text
@@ -179,6 +181,14 @@ class SimpleAdmin {
 								}
 								td {
 									field_srcaddress = textField(columns: 25, text: '')
+								}
+							}
+							tr {
+								td {
+									label (font: font1, text: '單次資料量')
+								}
+								td {
+									field_smsmaxsize = textField(columns: 10, text: '10')
 								}
 							}
 						}
@@ -366,7 +376,7 @@ class SimpleAdmin {
 
 							def proc = new SimpleProcess()
 
-							proc.send(db, sms, AL_SNO, message)
+							proc.send(db, sms, AL_SNO, message, new Integer(field_smsmaxsize.text))
 
 							//結束資料庫連線
 							sql.close()
@@ -404,6 +414,7 @@ class SimpleAdmin {
 			field_smspathsubmit.text = conf.mpush.path 
 			field_sysid.text = conf.mpush.sysId 
 			field_srcaddress.text = conf.mpush.srcAddress 
+			field_smsmaxsize.text = conf.mpush.maxSize 
 			field_dsn.text = conf.database.dsn 
 			field_dbuser.text = conf.database.user 
 			field_dbpwd.text = conf.database.password 
